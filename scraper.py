@@ -3,6 +3,7 @@ Deltastar scraper
 - Haalt alle producten op via products.json (alle pagina's)
 - Scrapt de inclusief-BTW prijs van de live productpagina
 - Genereert één gecombineerde XML voor Stock Sync
+- Upload de XML automatisch naar Google Drive
 """
 
 import requests
@@ -11,16 +12,87 @@ from xml.dom import minidom
 import time
 import re
 import os
+import json
+import base64
+
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.http import MediaFileUpload, MediaIoBaseUpload
+import io
 
 BASE_URL = "https://deltastar.nl"
 LOCALE = "/nl"
-OUTPUT_FILE = "docs/deltastar_feed.xml"
-REQUEST_DELAY = 1.0  # seconden tussen requests (vriendelijk voor hun server)
+OUTPUT_FILE = "/tmp/deltastar_feed.xml"
+DRIVE_FOLDER_ID = "1KJqzTf46xejD7PRbfufo5SysYrWIJIT_"
+DRIVE_FILENAME = "deltastar_feed.xml"
+REQUEST_DELAY = 1.0
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; StockSyncBot/1.0)",
     "Accept-Language": "nl-NL,nl;q=0.9",
 }
+
+
+def get_drive_service():
+    """Maakt verbinding met Google Drive via service account credentials."""
+    # Credentials komen uit GitHub Secret (base64 encoded JSON)
+    creds_b64 = os.environ.get("GOOGLE_CREDENTIALS_B64")
+    if not creds_b64:
+        raise ValueError("GOOGLE_CREDENTIALS_B64 environment variable niet gevonden")
+
+    creds_json = base64.b64decode(creds_b64).decode("utf-8")
+    creds_dict = json.loads(creds_json)
+
+    credentials = service_account.Credentials.from_service_account_info(
+        creds_dict,
+        scopes=["https://www.googleapis.com/auth/drive"]
+    )
+    return build("drive", "v3", credentials=credentials)
+
+
+def upload_to_drive(service, filepath):
+    """Upload of update het XML bestand in Google Drive en maak het publiek."""
+    # Zoek of het bestand al bestaat in de map
+    results = service.files().list(
+        q=f"name='{DRIVE_FILENAME}' and '{DRIVE_FOLDER_ID}' in parents and trashed=false",
+        fields="files(id, name)"
+    ).execute()
+
+    files = results.get("files", [])
+    media = MediaFileUpload(filepath, mimetype="application/xml", resumable=False)
+
+    if files:
+        # Bestand bestaat al — update het
+        file_id = files[0]["id"]
+        service.files().update(
+            fileId=file_id,
+            media_body=media
+        ).execute()
+        print(f"🔄 Bestand bijgewerkt in Drive (ID: {file_id})")
+    else:
+        # Nieuw bestand aanmaken
+        file_metadata = {
+            "name": DRIVE_FILENAME,
+            "parents": [DRIVE_FOLDER_ID]
+        }
+        result = service.files().create(
+            body=file_metadata,
+            media_body=media,
+            fields="id"
+        ).execute()
+        file_id = result["id"]
+        print(f"✨ Nieuw bestand aangemaakt in Drive (ID: {file_id})")
+
+    # Publiek toegankelijk maken (iedereen met link kan lezen)
+    service.permissions().create(
+        fileId=file_id,
+        body={"type": "anyone", "role": "reader"}
+    ).execute()
+
+    # Directe download URL
+    download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+    print(f"🌐 Publieke feed URL: {download_url}")
+    return download_url
 
 
 def fetch_all_products():
@@ -62,7 +134,6 @@ def fetch_live_price(handle):
         response = requests.get(url, headers=HEADERS, timeout=15)
         response.raise_for_status()
 
-        # Zoek de og:price:amount meta-tag
         match = re.search(
             r'<meta[^>]+property=["\']og:price:amount["\'][^>]+content=["\']([^"\']+)["\']',
             response.text
@@ -71,7 +142,6 @@ def fetch_live_price(handle):
             price_str = match.group(1).replace(",", ".")
             return float(price_str)
 
-        # Fallback: zoek ook in omgekeerde attribuut volgorde
         match = re.search(
             r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:price:amount["\']',
             response.text
@@ -88,7 +158,6 @@ def fetch_live_price(handle):
 
 def build_xml(products):
     """Bouwt de XML feed op voor Stock Sync."""
-
     root = ET.Element("products")
 
     total = len(products)
@@ -103,11 +172,9 @@ def build_xml(products):
         description_html = product.get("body_html", "") or ""
         tags = ", ".join(product.get("tags", []))
 
-        # Afbeelding (eerste afbeelding)
         images = product.get("images", [])
         image_url = images[0].get("src", "") if images else ""
 
-        # Live prijs ophalen
         print(f"  [{i}/{total}] {title[:50]}...")
         live_price = fetch_live_price(handle)
 
@@ -116,7 +183,6 @@ def build_xml(products):
         else:
             prices_fallback += 1
 
-        # Per variant een regel in de XML
         for variant in product.get("variants", []):
             sku = variant.get("sku", "")
             barcode = variant.get("barcode", "") or ""
@@ -124,14 +190,12 @@ def build_xml(products):
             quantity = variant.get("inventory_quantity", 0)
             compare_at_price = variant.get("compare_at_price") or ""
 
-            # Prijs: live (incl BTW) > fallback JSON prijs
             if live_price is not None:
                 price = live_price
             else:
                 raw_price = variant.get("price", "0")
-                price = float(raw_price) * 1.21  # 21% BTW als fallback
+                price = float(raw_price) * 1.21
 
-            # Variant-specifieke afbeelding
             variant_image_id = variant.get("image_id")
             variant_image = image_url
             for img in images:
@@ -172,12 +236,11 @@ def build_xml(products):
 
 def save_xml(root, filepath):
     """Slaat de XML op als mooi geformatteerd bestand."""
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    os.makedirs(os.path.dirname(filepath), exist_ok=True) if os.path.dirname(filepath) else None
 
     xml_str = ET.tostring(root, encoding="unicode")
     pretty = minidom.parseString(xml_str).toprettyxml(indent="  ")
 
-    # Verwijder de eerste XML-declaratie regel (minidom voegt die toe)
     lines = pretty.split("\n")
     if lines[0].startswith("<?xml"):
         lines[0] = '<?xml version="1.0" encoding="UTF-8"?>'
@@ -196,8 +259,13 @@ def main():
     root = build_xml(products)
     save_xml(root, OUTPUT_FILE)
 
+    print("\n☁️  Uploaden naar Google Drive...")
+    drive_service = get_drive_service()
+    feed_url = upload_to_drive(drive_service, OUTPUT_FILE)
+
     elapsed = time.time() - start
     print(f"\n⏱️  Klaar in {elapsed:.0f} seconden")
+    print(f"📋 Feed URL voor Stock Sync: {feed_url}")
 
 
 if __name__ == "__main__":
