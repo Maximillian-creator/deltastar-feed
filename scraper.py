@@ -1,21 +1,25 @@
 """
 Deltastar scraper
 - Haalt alle producten op via products.json (alle pagina's)
-- Berekent prijs incl. 21% BTW
+- Berekent prijs incl. BTW (9% als tag 'vat-low', anders 21%)
+- Scrapt uitgebreide beschrijving van live productpagina
 - Genereert één gecombineerde XML voor Stock Sync
-- Slaat XML op in de repository (wordt automatisch gepusht door GitHub Actions)
+- Slaat XML op in de repository
 """
 
 import requests
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import time
+import re
 import os
 
 BASE_URL = "https://deltastar.nl"
+LOCALE = "/nl"
 OUTPUT_FILE = "deltastar_feed.xml"
-BTW = 1.21
-REQUEST_DELAY = 0.5
+BTW_HOOG = 1.21
+BTW_LAAG = 1.09
+REQUEST_DELAY = 0.75
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; StockSyncBot/1.0)",
@@ -46,28 +50,113 @@ def fetch_all_products():
     return products
 
 
+def fetch_product_details(handle):
+    """Haalt uitgebreide beschrijving + prijs op van de live productpagina."""
+    url = f"{BASE_URL}{LOCALE}/products/{handle}"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        html = response.text
+
+        # Live prijs
+        price = None
+        match = re.search(
+            r'<meta[^>]+property=["\']og:price:amount["\'][^>]+content=["\']([^"\']+)["\']',
+            html
+        )
+        if not match:
+            match = re.search(
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:price:amount["\']',
+                html
+            )
+        if match:
+            price = float(match.group(1).replace(",", "."))
+
+        # Uitgebreide beschrijving: pak alles tussen product-description secties
+        description = None
+
+        # Probeer de volledige beschrijvingstekst te pakken inclusief dosering/allergenen
+        sections = []
+
+        # Beschrijving
+        desc_match = re.search(
+            r'<div[^>]*class="[^"]*rte[^"]*"[^>]*>(.*?)</div>',
+            html, re.DOTALL
+        )
+        if desc_match:
+            sections.append(desc_match.group(1).strip())
+
+        # Dosering
+        dos_match = re.search(
+            r'(?:Dosering|Dosage|Directions)[^<]*</[^>]+>\s*<[^>]+>\s*(.*?)(?=<(?:h[123456]|strong|div class))',
+            html, re.DOTALL | re.IGNORECASE
+        )
+        if dos_match:
+            dosage_text = re.sub(r'<[^>]+>', ' ', dos_match.group(1)).strip()
+            if dosage_text:
+                sections.append(f"<p><strong>Dosering:</strong> {dosage_text}</p>")
+
+        # Allergenen
+        allerg_match = re.search(
+            r'(?:Allergenen|Allergens)[^<]*</[^>]+>\s*<[^>]+>\s*(.*?)(?=<(?:h[123456]|strong|div class))',
+            html, re.DOTALL | re.IGNORECASE
+        )
+        if allerg_match:
+            allerg_text = re.sub(r'<[^>]+>', ' ', allerg_match.group(1)).strip()
+            if allerg_text:
+                sections.append(f"<p><strong>Allergenen:</strong> {allerg_text}</p>")
+
+        if sections:
+            description = "\n".join(sections)
+
+        return price, description
+
+    except Exception as e:
+        print(f"    ⚠️  Fout bij ophalen {handle}: {e}")
+        return None, None
+
+
 def build_xml(products):
     root = ET.Element("products")
+    total = len(products)
 
-    for product in products:
+    for i, product in enumerate(products, 1):
         handle = product.get("handle", "")
         title = product.get("title", "")
         vendor = product.get("vendor", "")
         product_type = product.get("product_type", "")
         description_html = product.get("body_html", "") or ""
-        tags = ", ".join(product.get("tags", []))
+        tags = product.get("tags", [])
+        tags_str = ", ".join(tags)
         images = product.get("images", [])
         image_url = images[0].get("src", "") if images else ""
+
+        # BTW bepalen op basis van tags
+        btw = BTW_LAAG if "vat-low" in tags else BTW_HOOG
+        btw_label = "9%" if btw == BTW_LAAG else "21%"
+
+        # Uitgebreide beschrijving + live prijs ophalen
+        print(f"  [{i}/{total}] {title[:50]}... (BTW: {btw_label})")
+        live_price, live_description = fetch_product_details(handle)
+
+        # Beschrijving: gebruik live versie als die beschikbaar is
+        final_description = live_description if live_description else description_html
 
         for variant in product.get("variants", []):
             sku = variant.get("sku", "")
             barcode = variant.get("barcode", "") or ""
             available = variant.get("available", False)
             quantity = variant.get("inventory_quantity", 0)
-            raw_price = float(variant.get("price", "0"))
-            price = round(raw_price * BTW, 2)
+
+            # Prijs: gebruik live prijs als beschikbaar, anders JSON × BTW
+            if live_price is not None:
+                price = live_price
+            else:
+                raw_price = float(variant.get("price", "0"))
+                price = round(raw_price * btw, 2)
+
             raw_compare = variant.get("compare_at_price")
-            compare_at_price = round(float(raw_compare) * BTW, 2) if raw_compare else ""
+            compare_at_price = round(float(raw_compare) * btw, 2) if raw_compare else ""
 
             variant_image_id = variant.get("image_id")
             variant_image = image_url
@@ -87,8 +176,8 @@ def build_xml(products):
             add("title", title)
             add("vendor", vendor)
             add("product_type", product_type)
-            add("description", description_html)
-            add("tags", tags)
+            add("description", final_description)
+            add("tags", tags_str)
             add("price", f"{price:.2f}")
             add("compare_at_price", f"{compare_at_price:.2f}" if compare_at_price else "")
             add("available", "true" if available else "false")
@@ -100,6 +189,8 @@ def build_xml(products):
             add("option2", variant.get("option2", "") or "")
             add("weight", variant.get("weight", ""))
             add("weight_unit", variant.get("weight_unit", ""))
+
+        time.sleep(REQUEST_DELAY)
 
     return root
 
