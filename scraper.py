@@ -3,7 +3,7 @@ Deltastar scraper
 - Haalt alle producten op via products.json (alle pagina's)
 - Berekent prijs incl. 21% BTW
 - Genereert één gecombineerde XML voor Stock Sync
-- Upload de XML automatisch naar Google Drive
+- Slaat XML op in de repository (wordt automatisch gepusht door GitHub Actions)
 """
 
 import requests
@@ -11,17 +11,9 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import time
 import os
-import json
-import base64
-
-from google.oauth2 import service_account
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
 
 BASE_URL = "https://deltastar.nl"
-OUTPUT_FILE = "/tmp/deltastar_feed.xml"
-DRIVE_FOLDER_ID = "1KJqzTf46xejD7PRbfufo5SysYrWIJIT_"
-DRIVE_FILENAME = "deltastar_feed.xml"
+OUTPUT_FILE = "deltastar_feed.xml"
 BTW = 1.21
 REQUEST_DELAY = 0.5
 
@@ -29,47 +21,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; StockSyncBot/1.0)",
     "Accept-Language": "nl-NL,nl;q=0.9",
 }
-
-
-def get_drive_service():
-    creds_b64 = os.environ.get("GOOGLE_CREDENTIALS_B64")
-    if not creds_b64:
-        raise ValueError("GOOGLE_CREDENTIALS_B64 environment variable niet gevonden")
-    creds_json = base64.b64decode(creds_b64).decode("utf-8")
-    creds_dict = json.loads(creds_json)
-    credentials = service_account.Credentials.from_service_account_info(
-        creds_dict,
-        scopes=["https://www.googleapis.com/auth/drive"]
-    )
-    return build("drive", "v3", credentials=credentials)
-
-
-def upload_to_drive(service, filepath):
-    results = service.files().list(
-        q=f"name='{DRIVE_FILENAME}' and '{DRIVE_FOLDER_ID}' in parents and trashed=false",
-        fields="files(id, name)"
-    ).execute()
-    files = results.get("files", [])
-    media = MediaFileUpload(filepath, mimetype="application/xml", resumable=False)
-
-    if files:
-        file_id = files[0]["id"]
-        service.files().update(fileId=file_id, media_body=media).execute()
-        print(f"🔄 Bestand bijgewerkt in Drive (ID: {file_id})")
-    else:
-        file_metadata = {"name": DRIVE_FILENAME, "parents": [DRIVE_FOLDER_ID]}
-        result = service.files().create(body=file_metadata, media_body=media, fields="id").execute()
-        file_id = result["id"]
-        print(f"✨ Nieuw bestand aangemaakt in Drive (ID: {file_id})")
-
-    service.permissions().create(
-        fileId=file_id,
-        body={"type": "anyone", "role": "reader"}
-    ).execute()
-
-    download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
-    print(f"🌐 Feed URL: {download_url}")
-    return download_url
 
 
 def fetch_all_products():
@@ -167,18 +118,13 @@ def save_xml(root, filepath):
 def main():
     print("🚀 Deltastar scraper gestart\n")
     start = time.time()
-
     products = fetch_all_products()
     root = build_xml(products)
     save_xml(root, OUTPUT_FILE)
-
-    print("\n☁️  Uploaden naar Google Drive...")
-    drive_service = get_drive_service()
-    feed_url = upload_to_drive(drive_service, OUTPUT_FILE)
-
     elapsed = time.time() - start
     print(f"\n⏱️  Klaar in {elapsed:.0f} seconden")
-    print(f"📋 Feed URL voor Stock Sync:\n{feed_url}")
+    print(f"\n📋 Feed URL voor Stock Sync:")
+    print(f"https://raw.githubusercontent.com/Maximillian-creator/deltastar-feed/main/deltastar_feed.xml")
 
 
 if __name__ == "__main__":
