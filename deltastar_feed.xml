@@ -148,7 +148,7 @@
     <product_type/>
     <description>Melatonin spray with lemon balm for fast-acting sleep support.</description>
     <tags>vat-liquid</tags>
-    <price>26.50</price>
+    <price>23.87</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -748,7 +748,7 @@
     <product_type/>
     <description>&lt;p&gt;Vitamine B12 als actieve methylcobalamine B12 Liquid bevat 1000 μg methylcobalamine in elke portie van 1 ml. Methylcobalamine is een actieve vorm van vitamine B12. Vitamine B12 draagt bij tot een normaal energieleverend metabolisme en de vermindering van vermoeidheid en moeheid. Vitamine B12 draagt bij tot de normale w&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>27.14</price>
+    <price>24.45</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -935,7 +935,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>iron-c-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F02fdb5b7-d2b1-4088-4dd7-08da78a4a19b_2FOF26UK-1_8339c4a8-82dd-470c-9031-0fb800a6af07.webp?v=1781519642</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F02fdb5b7-d2b1-4088-4dd7-08da78a4a19b_2FOF26UK-1_46393208-b624-4ffc-b886-7afc1d2da9e2.webp?v=1781600976</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1035,7 +1035,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-citrate-180-capsules-1</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0323e0e5-0895-4ba0-4efe-08da78a4a19b_2FMC1UK-1_35d33882-77e5-48aa-9573-5f7ba79bce7c.webp?v=1781556489</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0323e0e5-0895-4ba0-4efe-08da78a4a19b_2FMC1UK-1_73b9fa1d-67dd-4b3c-a11d-0d87c58d952d.webp?v=1781614833</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1115,7 +1115,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>hair-skin-nails-ultra-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F476339c5-e8f0-4bdd-4d41-08da78a4a19b_2FHSN6UK-1.webp?v=1781444702</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F476339c5-e8f0-4bdd-4d41-08da78a4a19b_2FHSN6UK-1_51098154-81bc-4577-8e10-981863457d7e.webp?v=1781615557</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1190,7 +1190,7 @@
     <product_type/>
     <description>&lt;p&gt;Verbeterde absorptie van liposomale vitamine C Liposomale Vitamine C vloeistof biedt vitamine C in een liposomale vorm met verbeterde absorptie. Het liposomale afgiftesysteem maakt gebruik van fosfolipiden uit GGO-vrije zonnebloempitten.  Geleverd in een aangenaam smakende vloeistof met citrussmaak. Met 1.000 mg vitami&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>56.79</price>
+    <price>51.15</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -1212,10 +1212,10 @@
     <tags>vat-low</tags>
     <price>14.00</price>
     <compare_at_price/>
-    <available>true</available>
+    <available>false</available>
     <quantity>0</quantity>
     <handle>copper-citrate-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbd6f7743-0fec-421b-4b33-08da78a4a19b_2FCUC6UK-1_566cf601-0cc7-414f-abc6-765f4ea04732.webp?v=1781403582</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbd6f7743-0fec-421b-4b33-08da78a4a19b_2FCUC6UK-1.webp?v=1781614979</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1515,7 +1515,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>nac-600-mg-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9142266a-9886-41cb-5031-08da78a4a19b_2FNA69UK-1_7b7b973d-7847-4d6e-9c8b-6e563cc9cf85.webp?v=1781548025</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9142266a-9886-41cb-5031-08da78a4a19b_2FNA69UK-1_7009e879-bc97-4dcb-96fc-b039f8fcda0b.webp?v=1781600971</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1635,7 +1635,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-glycinate-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F90bbaa40-95a1-4e64-4f06-08da78a4a19b_2FMG9UK-1_487d8d74-c461-46e7-ad3f-6e6d801b8ebd.webp?v=1781517067</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F90bbaa40-95a1-4e64-4f06-08da78a4a19b_2FMG9UK-1_8b2a9a31-6efc-43d7-bfc9-77b9f0827ed8.webp?v=1781600972</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1875,7 +1875,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>zinc-30-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe607f4e3-7558-4305-556a-08da78a4a19b_2FZ36UK-1_c1eadf56-c761-4668-abf9-65f68285579a.webp?v=1781449712</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe607f4e3-7558-4305-556a-08da78a4a19b_2FZ36UK-1_d51f93a2-7101-4882-a554-91faa05f3c9a.webp?v=1781600975</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1895,7 +1895,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>selenium-60-capsules-1</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc1815edf-fa2b-4907-52fc-08da78a4a19b_2FSE6UK-1.webp?v=1781406099</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc1815edf-fa2b-4907-52fc-08da78a4a19b_2FSE6UK-1_54264dad-a8e2-4f7f-be14-9db7aaa559b7.webp?v=1781600968</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -2090,7 +2090,7 @@
     <product_type/>
     <description>&lt;p&gt;Hit the Lights™ is a vitamin C soluble liquid to brighten and even skin tone from the inside out. It promotes antioxidant activity, collagen synthesis, and normal tissue healing, and offers some protection against the damaging effects of environmental factors. Utilizing a unique liposomal delivery system, Hit the Light&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>50.66</price>
+    <price>45.64</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -2330,7 +2330,7 @@
     <product_type/>
     <description>&lt;p&gt;GPC Liquid is a water soluble molecule that has been proven to be more effective than Phosphatidylcholine (PC) from diet or supplementation. GPC liquid helps fat transport in and out of cells, Improves memory, mental focus and reaction time in elderly and young individuals, boosts growth hormone production in the young&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>114.39</price>
+    <price>103.05</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -3415,7 +3415,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>dim-complex-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F86cda74f-9632-4a37-3788-08de79df1975_2F00612_DIMComplex_NewLook_adb18217-eb38-4218-abc0-30de1a63d5cf.webp?v=1781409441</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F86cda74f-9632-4a37-3788-08de79df1975_2F00612_DIMComplex_NewLook.webp?v=1781595553</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -4312,10 +4312,10 @@
     <tags>vat-low</tags>
     <price>58.62</price>
     <compare_at_price/>
-    <available>true</available>
+    <available>false</available>
     <quantity>0</quantity>
     <handle>buffered-vitamin-c-1000mg-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb8ab13a0-a3ac-43b6-463a-08de75fa1936_2F00232-BufferedVitaminC.webp?v=1781408694</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb8ab13a0-a3ac-43b6-463a-08de75fa1936_2F00232-BufferedVitaminC_2dcea6c9-8078-43b9-acdb-9c65865e6083.webp?v=1781600242</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -4750,7 +4750,7 @@
     <product_type/>
     <description>&lt;p&gt;Liposomal D Supreme features vitamins D3, K1, and K2 combined to support healthy bones and calcium balance. Vitamin D supports normal calcium absorption, while vitamin K may help direct calcium to the bones for strength. Vitamin D supports immune health by promoting a healthy inflammatory response, which helps the body&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>82.26</price>
+    <price>74.10</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -4815,7 +4815,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>homocysteine-supreme-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa69bd85b-3f18-4da9-b0cd-08de5405dc55_2FHomocysteine_Supreme_ps_057db7df-1f6e-410f-9179-dc8949773586.webp?v=1781408632</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa69bd85b-3f18-4da9-b0cd-08de5405dc55_2FHomocysteine_Supreme_ps.webp?v=1781610201</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -4995,7 +4995,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>annatto-e-150-60-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F08558533-5294-4f7b-b0ca-08de5405dc55_2FAnnatto-E_60_1_0522b0b4-e9fd-492f-afe7-6cd2e8f2500b.webp?v=1781409562</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F08558533-5294-4f7b-b0ca-08de5405dc55_2FAnnatto-E_60_1.webp?v=1781610682</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -5008,7 +5008,7 @@
     <title>Annatto-E® 150 - 30 softgels</title>
     <vendor>Designs for Health</vendor>
     <product_type/>
-    <description>&lt;p&gt;Annatto-E™ 150 is a unique tocopherol-free, tocotrienols-only product featuring tocotrienols sourced from the annatto tree. Annatto is the richest known source of tocotrienols, containing 100% tocotrienols (90% delta-isomers and 10% gamma-isomers), with no tocopherols.Annatto-E™ 150 contains 150 mg per softgel of delta&lt;/p&gt;</description>
+    <description>Annatto-E™ 150 is a unique tocopherol-free, tocotrienols-only product featuring tocotrienols sourced from the annatto tree. Annatto is the richest known source of tocotrienols, containing 100% tocotrienols (90% delta-isomers and 10% gamma-isomers), with no tocopherols.&lt;br&gt;&lt;br&gt;Annatto-E™ 150 contains 150 mg per softgel of delta- and gamma-tocotrienols. Commercial vitamin E supplements are typically rich in tocopherols and low or absent in tocotrienols; however, tocotrienol fractions have unique beneficial effects across a variety of tissues that make them desirable for supporting many aspects of health.&lt;br&gt;&lt;br&gt;Research indicates that tocopherols — especially alpha-tocopherols — may interfere with key clinical effects of tocotrienols, so it may be best to take tocotrienols alone, without tocopherols.</description>
     <tags>vat-low</tags>
     <price>34.73</price>
     <compare_at_price/>
@@ -5052,10 +5052,10 @@
     <tags>vat-low</tags>
     <price>25.46</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-glycinate-complex-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7d7d8c59-95b8-4dd0-4200-08de540d10ca_2FMagnesium_Glycinate_Complex_1_ceafd4fc-3076-434d-826f-97d77eb4a47c.webp?v=1781408526</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7d7d8c59-95b8-4dd0-4200-08de540d10ca_2FMagnesium_Glycinate_Complex_1.webp?v=1781617401</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -5350,7 +5350,7 @@
     <product_type/>
     <description>&lt;p&gt;Ultra Rx-Joint® Liquid bevat pure glucosamine en chondroïtine in de geprefereerde sulfaatvorm, evenals methylsulfonylmethaan (MSM). Deze formule werd aangevuld met een speciaal profiel van belangrijke cofactoren, waaronder gebufferde vitamine C en mangaanglycinaat. Ultra Rx-Joint® Liquid is met name geschikt voor mense&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>58.25</price>
+    <price>52.47</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -6472,7 +6472,7 @@
 &lt;br&gt;Hint:
 &lt;br&gt; Food supplements are not intended to be a substitute for a balanced and varied diet.</description>
     <tags>vat-liquid</tags>
-    <price>59.22</price>
+    <price>53.34</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -6904,7 +6904,7 @@
     <product_type/>
     <description>&lt;p&gt;Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>13.25</price>
+    <price>11.94</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -7009,7 +7009,7 @@
     <available>false</available>
     <quantity>0</quantity>
     <handle>e-fem-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1382a975-ded4-4f45-6c6a-08dc4cb73409_2F4872_4_48233532-5bee-43a1-8dab-1c08ae57e9f0.webp?v=1781407820</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1382a975-ded4-4f45-6c6a-08dc4cb73409_2F4872_4_dd3749cf-a2e2-4d7f-aa15-1c632c85e3d8.webp?v=1781595117</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -7929,7 +7929,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>immunomod-a-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8391da52-cfa2-4a15-4d9c-08da78a4a19b_2FIMM120-1_e6a8f624-fd8b-4aa5-8c82-18fd6bd6ab41.webp?v=1781519758</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8391da52-cfa2-4a15-4d9c-08da78a4a19b_2FIMM120-1.webp?v=1781610187</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -8009,7 +8009,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>ultra-omega-3-6-9-90-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F33c14d1b-49fa-4588-322c-08dc4a4ec0d2_2F3968-01_5000x_jpg_29666e1f-98b0-435d-8da3-660689f6c9b2.webp?v=1781525879</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F33c14d1b-49fa-4588-322c-08dc4a4ec0d2_2F3968-01_5000x_jpg_54c0fae9-cd64-4718-b35d-75e660945132.webp?v=1781612364</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -8044,7 +8044,7 @@
     <product_type/>
     <description>&lt;p&gt;Trizomal™ Glutathion is een baanbrekende nieuwe benadering van glutathionsuppletie. Het bevat, voor het eerst in een liposomale oplossing, S-acetyl L-glutathion (SAG), gecombineerd met gereduceerd glutathion (GSH) en N-acetyl L-cysteïne (NAC). Deze formulering maakt gebruik van drie manieren om glutathion te ondersteun&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>97.43</price>
+    <price>87.77</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -8149,7 +8149,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>meta-care-basic-3-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F114c43dc-858f-44df-51ea-08dcecfae532_2Fpackshot-spiegelung-mc-basic-3-2.webp?v=1781468510</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F114c43dc-858f-44df-51ea-08dcecfae532_2Fpackshot-spiegelung-mc-basic-3-2_2f3359bc-5a36-47f3-bd7f-9c1aa6c9fff4.webp?v=1781611432</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -8264,7 +8264,7 @@
     <product_type/>
     <description>&lt;p&gt;Liposomal NeuroCalm™ is een unieke mix van gamma-aminoboterzuur (GABA) en L-theanine ter ondersteuning van mentale rust en een gezonde reactie op stress. De ingrediënten zijn geformuleerd met liposomale technologie om optimale absorptie en biobeschikbaarheid te bieden. Elke portie van deze formule levert 250 mg GABA en&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>50.75</price>
+    <price>45.71</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -8424,7 +8424,7 @@
     <product_type/>
     <description>&lt;p&gt;Optimal-pH is een complex van natuurlijke sporenelementen. Een optimale pH-waarden in het lichaam is essentieel voor het lichaam. Het bevat meer dan 72 natuurlijk voorkomende ionische sporenelementen uit het Great Salt Lake in Utah. Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>23.92</price>
+    <price>21.55</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -8444,7 +8444,7 @@
     <product_type/>
     <description>&lt;p&gt;Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>31.30</price>
+    <price>28.20</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -8604,7 +8604,7 @@
     <product_type/>
     <description>&lt;p&gt;Glycerophosphocholine (GPC) is a source of choline, which is a building block for critical compounds in the body—in particular, acetylcholine and phosphatidylcholine. Acetylcholine is a neurotransmitter that plays crucial roles in memory, learning, muscle coordination and movement, and both aspects of the nervous syste&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>107.87</price>
+    <price>97.17</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -8629,7 +8629,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>electrolyte-synergy-240-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fef271ebb-f5f5-4702-4bf8-08da78a4a19b_2FELS240-1_5ff8d893-5943-4086-84a3-fa70b87fb89c.webp?v=1781532790</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fef271ebb-f5f5-4702-4bf8-08da78a4a19b_2FELS240-1_a14b43c3-b2d4-4e0e-9015-976daf03d829.webp?v=1781617507</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -8869,7 +8869,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>thyroid-synergy-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9394459a-5643-4cd8-53c0-08da78a4a19b_2FTHS120_Thyroid-Synergy_250cc_medium__25281_2529_7f511ae2-1b9f-49b0-b629-06297874c2ba.webp?v=1781406160</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9394459a-5643-4cd8-53c0-08da78a4a19b_2FTHS120_Thyroid-Synergy_250cc_medium__25281_2529_1d6e6c82-bb4b-4bbe-8f59-bacc87d136a6.webp?v=1781614675</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -8924,7 +8924,7 @@
     <product_type/>
     <description>&lt;p&gt;ImmunoBerry™ Liquid biedt ondersteuning van het immuunsysteem in een aangenaam smakende vloeistof met bessensmaak. Onderzoek suggereert dat bepaalde kruiden, paddenstoelen en andere natuurlijke verbindingen het vermogen kunnen hebben om normale immuunfuncties te ondersteunen, zoals natural killer (NK) celactiviteit, cy&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>67.88</price>
+    <price>61.15</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -9124,7 +9124,7 @@
     <product_type/>
     <description>&lt;p&gt;Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>29.29</price>
+    <price>26.39</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -9144,7 +9144,7 @@
     <product_type/>
     <description>&lt;p&gt;Turmero-XL Active is een geëmulgeerde, gemicroniseerde formulering die een geconcentreerde bron van curcuminoïden (gestandaardiseerd op 95%) levert in combinatie met extract van zwarte peper in een aangenaam smakende vloeistof. Micronisatie vermindert de deeltjesgrootte om de absorptie te bevorderen en het is bekend da&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>115.62</price>
+    <price>104.15</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -9306,10 +9306,10 @@
     <tags>vat-low</tags>
     <price>111.40</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>broccoprotect-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdba0c831-f37b-4724-4a4d-08da78a4a19b_2FBroccoProtect_1_970e2555-9eae-4ffa-9291-30945ac29a90.webp?v=1781402797</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdba0c831-f37b-4724-4a4d-08da78a4a19b_2FBroccoProtect_1_8f88aca2-9266-42eb-8c2c-5695ca7fdf82.webp?v=1781613145</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -9344,7 +9344,7 @@
     <product_type/>
     <description>&lt;p&gt;Liposomale Cat&amp;#39;s Claw Synergy levert kattenklauw en monolaurine, twee ingrediënten die bekend staan om hun rol in ondersteuning van het immuunsysteem, samen met extra ingrediënten om een gezonde immuunfunctie te bevorderen.* De Klauw van de kat Uncaria tomentosa, beter bekend als kattenklauw, is een plant inheems in he&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>73.59</price>
+    <price>66.29</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -9404,7 +9404,7 @@
     <product_type/>
     <description>&lt;p&gt;Mucolyxir is een vloeibaar supplement gemaakt van het DNA (deoxyribonucleïnezuur) van de pacifische wilde zalm. Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>68.99</price>
+    <price>62.15</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -9504,7 +9504,7 @@
     <product_type/>
     <description>&lt;p&gt;Progest-Avail™ is een natuurlijk progesteronserum bedoeld voor uitwendig gebruik, dat 20 mg bio-identiek progesteron per milliliter levert. Het bestaat uit een gemicroniseerde vorm van natuurlijk progesteron in een speciaal ontwikkelde triglyceridendrager om de opname te verbeteren. Het serum bevat bovendien een natuur&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>54.76</price>
+    <price>49.33</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -9564,7 +9564,7 @@
     <product_type/>
     <description>&lt;p&gt;Neurosera™ richt zich op slaap- en stemmingsondersteuning met een rijk ingrediëntenprofiel dat gericht is op belangrijke neurologische mechanismen. Het combineert complementaire plantaardige ingrediënten om de GABA- en serotonerge systemen te ondersteunen met toegevoegde verbindingen om ontspanning en sereniteit te ver&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>48.05</price>
+    <price>43.28</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -9844,7 +9844,7 @@
     <product_type/>
     <description>&lt;p&gt;PerioPull™ is uniek ontworpen om de mond- en parodontale gezondheid te ondersteunen. Het bevat triglyceriden met middellange ketens (MCT&amp;#39;s) uit kokosolie, geranylgeraniol (GG), bromelaïne en co-enzym Q10 (CoQ10) om het mondwelzijn te ondersteunen.Oil pulling is een traditionele Ayurvedische praktijk en in recent onderz&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>44.70</price>
+    <price>40.26</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -9904,7 +9904,7 @@
     <product_type/>
     <description>&lt;p&gt;Resvero-XL Active is een geëmulgeerde gemicroniseerde formule waarin de deeltjesgrootte van geconcentreerd trans-resveratrol (van Polygonum cuspidatum) sterk wordt verkleind om de absorptie en biobeschikbaarheid te verbeteren. Bovendien drijven gemicroniseerde structuren, bekend als micellen, gemakkelijk tussen de darm&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>116.92</price>
+    <price>105.33</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -10384,7 +10384,7 @@
     <product_type/>
     <description>&lt;p&gt;Super Turmero™ maakt gebruik van geavanceerde vloeibare miceltechnologie om BCM-95® te leveren, een zeer biologisch beschikbare mix van curcuminoïden en essentiële oliën van kurkuma (turmerones). Verrijkt met gingerolen en extract van zwarte peper om een optimale opname te bevorderen, biedt Super Turmero een volledig s&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>84.43</price>
+    <price>76.06</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -10904,7 +10904,7 @@
     <product_type/>
     <description>&lt;p&gt;Trizomal™ Glutathion is een doorbraak in glutathionsuppletie en is nu verkrijgbaar in gebruiksvriendelijke verpakkingen voor één portie. Deze formulering biedt drie manieren om gezonde glutathionspiegels te ondersteunen: intracellulair met S-acetyl-L-glutathion (SAG), intracellulaire biosynthese met N-acetyl-L-cysteïne&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>87.04</price>
+    <price>78.40</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -10989,7 +10989,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>glutathione-complex-90-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe04f4717-96b8-4b9a-901e-08dafc88ac75_2FGlutathione_20Complex_e7648b98-4c62-400f-ac2e-3389e5f675a5.webp?v=1781531872</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe04f4717-96b8-4b9a-901e-08dafc88ac75_2FGlutathione_20Complex_1a4c50e8-6e90-4cb2-a8f5-000e9d797c9b.webp?v=1781605578</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11149,7 +11149,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>amino-acid-supreme-360-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7d53bf00-8f65-4a3f-4912-08da78a4a19b_2FAASPDR-1_ec0ca086-3ead-44a8-8f6d-11ab9a5d0a5d.webp?v=1781466510</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7d53bf00-8f65-4a3f-4912-08da78a4a19b_2FAASPDR-1_32a44efc-9a4c-453d-82ed-79a861eadaa4.webp?v=1781611689</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11209,7 +11209,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>collagen-peptides-294-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fab7f0e64-e09d-4fe8-c806-08dc3f431ebe_2FColalged_Peptides_NP_5e7f6208-cdbe-4744-8dca-9b2f8c81b99b.webp?v=1781532848</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fab7f0e64-e09d-4fe8-c806-08dc3f431ebe_2FColalged_Peptides_NP_f2c13189-7be8-4338-a1b5-ae1da1f51195.webp?v=1781602138</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11269,7 +11269,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>source-of-life-gold-multivitamin-90-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbf3cf019-2cfe-4beb-850c-08dc5d23b752_2F30711-01_5000x_3252828a-76ae-4451-8bde-64a5543697f9.webp?v=1781511659</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbf3cf019-2cfe-4beb-850c-08dc5d23b752_2F30711-01_5000x_a98e2fe7-a7e3-47ee-82d5-79234161faaf.webp?v=1781612366</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11389,7 +11389,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-glycinate-complex-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F211438b9-5213-4ca9-4f16-08da78a4a19b_2Fmgc120_magnesium-glycinate-complex_300cc_ipsos-badge_1_74e14e66-7d4b-4589-83e4-7429d4654591.webp?v=1781551897</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F211438b9-5213-4ca9-4f16-08da78a4a19b_2Fmgc120_magnesium-glycinate-complex_300cc_ipsos-badge_1_faaad374-98e4-485a-976b-eda0e6cd826d.webp?v=1781618723</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11469,7 +11469,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>floramyces-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1c026f72-3b70-48a0-4c7c-08da78a4a19b_2FFLM060-1_8bd22e6d-cfaa-4c7d-a5c1-31c627037bf1.webp?v=1781430846</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1c026f72-3b70-48a0-4c7c-08da78a4a19b_2FFLM060-1_bba95428-5cb6-4710-b50e-d84d3da39695.webp?v=1781604814</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11549,7 +11549,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-vegan-80-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F45742ac6-c573-4add-50d3-08da78a4a19b_2FNS-2018303-1_cad1c8e0-ecef-4e8c-a154-b9c3d8ef0e3a.webp?v=1781551538</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F45742ac6-c573-4add-50d3-08da78a4a19b_2FNS-2018303-1_dbb7b2d3-93df-4361-953c-ad8447722353.webp?v=1781616744</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11586,10 +11586,10 @@
     <tags>vat-low</tags>
     <price>45.10</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>inflammatone-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3cccd218-34df-4e67-4bf2-08db13e8a93a_2Finf060_inflammatone_150cc_1_9087793e-d8ca-4393-801c-01f845cedcda.webp?v=1781406759</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3cccd218-34df-4e67-4bf2-08db13e8a93a_2Finf060_inflammatone_150cc_1_93de9def-ec8d-4786-a093-ed52f1fa81a7.webp?v=1781617776</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11609,7 +11609,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>tricobalamin-60-lozenges</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fed08291a-16e4-41f9-26a7-08daff7a6c60_2Ftric60-tricobalamin-box_1_bae89938-cd97-441e-bbe6-2af52df0a22a.webp?v=1781466299</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fed08291a-16e4-41f9-26a7-08daff7a6c60_2Ftric60-tricobalamin-box_1_d86c106b-b0da-46e7-a7a0-080cc48dc8d2.webp?v=1781594007</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11626,10 +11626,10 @@
     <tags>vat-low</tags>
     <price>22.09</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>dhea-25-mg-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fcb997c0b-f10b-4dbe-a8cd-08dc974308d8_2Fdhea60_dhea-25mg_60cc_1__1_3de824cd-f5d3-44f1-ae7c-5251601b1bad.webp?v=1781407949</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fcb997c0b-f10b-4dbe-a8cd-08dc974308d8_2Fdhea60_dhea-25mg_60cc_1__1_efed9357-484d-44ca-b93b-72a9d2b1b3bd.webp?v=1781621424</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11649,7 +11649,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>gastromend-hp-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbe73504e-e7f0-4cae-4ccc-08da78a4a19b_2Fgastromend-ghm060-150cc_26510243-6953-4d30-8fc0-5041500e0e56.webp?v=1781519775</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbe73504e-e7f0-4cae-4ccc-08da78a4a19b_2Fgastromend-ghm060-150cc_4b7c03fc-e058-44bf-9d61-8c6ae5af6316.webp?v=1781617806</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11709,7 +11709,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>gastrocleanse-100-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8c0d6b43-b428-488c-4ccb-08da78a4a19b_2FGastroCleanse_ce1571ab-f156-467f-bf81-40f83e9cd1bd.webp?v=1781592012</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8c0d6b43-b428-488c-4ccb-08da78a4a19b_2FGastroCleanse_91e797d7-e1db-4930-b07f-a332534d0268.webp?v=1781614181</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11824,7 +11824,7 @@
     <product_type/>
     <description>&lt;p&gt;Nitric Balance™ is een geavanceerde combinatie van zorgvuldig geselecteerde ingrediënten die samenwerken om de NOS-activiteit (stikstofmonoxidesynthase) en de intracellulaire energieproductie te beïnvloeden. Het beïnvloedt ook de gerelateerde productie van celsignalerende moleculen en oxidanten. Deze formulering maakt &lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>67.54</price>
+    <price>60.84</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -11849,7 +11849,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>quercetin-300-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe82914b7-c81e-4276-5277-08da78a4a19b_2FDS-70060-1_ab0ff451-1f84-4fea-b57c-78a78190b3e9.webp?v=1781407409</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe82914b7-c81e-4276-5277-08da78a4a19b_2FDS-70060-1_97c32088-8d03-4d9a-aa95-4300402fdbe8.webp?v=1781619029</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11929,7 +11929,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>butyren-100-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdbeb7545-bdad-4410-4a64-08da78a4a19b_2FDS-70220-1_3c7438da-14f9-4342-8740-76130e9dafdf.webp?v=1781591065</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdbeb7545-bdad-4410-4a64-08da78a4a19b_2FDS-70220-1_5cce69b9-f8cf-48aa-9d96-b156b09dc8c2.webp?v=1781595871</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11969,7 +11969,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>n-acetyl-glucosamine-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3ac4a675-e782-4ab2-5023-08da78a4a19b_2F71140_N-AcetylGlucosamine.webp?v=1781405406</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3ac4a675-e782-4ab2-5023-08da78a4a19b_2F71140_N-AcetylGlucosamine_b34670b9-e4ab-481d-a62b-4b7c6d866b09.webp?v=1781614973</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11989,7 +11989,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>gi-flora-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3af29d7c-9174-4a74-4cb0-08da78a4a19b_2FDS-72460-1_ac9c4793-b77b-4971-9a0f-da9c3d472011.webp?v=1781403731</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3af29d7c-9174-4a74-4cb0-08da78a4a19b_2FDS-72460-1_95e71446-744e-4c90-a594-84ccc7a9c95d.webp?v=1781618334</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12029,7 +12029,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>pregnenolone-50-mg-60-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0231485a-ad82-43bc-51f3-08da78a4a19b_2FDS-74810-1_ed19fb02-2c36-4a5e-ad50-75a8bd4461f2.webp?v=1781590783</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0231485a-ad82-43bc-51f3-08da78a4a19b_2FDS-74810-1_62ff1c42-ec52-4cfa-81db-d8f31c4b3c5c.webp?v=1781620602</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12129,7 +12129,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>l-lysine-100-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F11081ff9-6583-4529-2dab-08dadc5bae60_2FL-Lysine_71a0c5a5-8623-4683-94d6-52268eff9e1a.webp?v=1781464320</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F11081ff9-6583-4529-2dab-08dadc5bae60_2FL-Lysine_06d2977f-c5e9-4cb3-af03-21bc03b069e2.webp?v=1781621366</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12189,7 +12189,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>zinc-picolinate-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0c7d9033-a84d-4b82-5587-08da78a4a19b_2FDS-70300-1_ee56f7ce-982b-41f7-a06c-6c5490f4f561.webp?v=1781545235</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0c7d9033-a84d-4b82-5587-08da78a4a19b_2FDS-70300-1_fc8cf509-74dd-45b4-bedc-d7006500068b.webp?v=1781616010</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12229,7 +12229,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>mvm-a-180-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3a27abd6-db7b-4a8f-4eee-08da78a4a19b_2F75940_583bb70e-f0ad-441e-bb7f-c7f77c243b90.webp?v=1781497503</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3a27abd6-db7b-4a8f-4eee-08da78a4a19b_2F75940_e56e2f17-ccf1-45d9-8352-98da344b3935.webp?v=1781607355</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12309,7 +12309,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>msm-150-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F86652d3d-f84f-4494-4ee2-08da78a4a19b_2FDS-72850-1_4b8095b7-e54d-4b61-abb7-d2a104b9a717.webp?v=1781459714</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F86652d3d-f84f-4494-4ee2-08da78a4a19b_2FDS-72850-1_fcb2811d-cf78-429b-94e9-95f22d4295a9.webp?v=1781607349</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12349,7 +12349,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>b12-methylcobalamin-50-lozenges</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F642407ea-88c4-4c98-498d-08da78a4a19b_2FDS-76560-1_21a22ea9-e774-4dff-8962-bbd7ab3ddc12.webp?v=1781576285</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F642407ea-88c4-4c98-498d-08da78a4a19b_2FDS-76560-1_7e3397ae-f383-480f-8aa9-fab5084e72c6.webp?v=1781619031</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12529,7 +12529,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>5-htp-50-mg-150-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa79cff17-100a-4968-4883-08da78a4a19b_2FDS-72810-1_015c1ea9-ca14-455d-bb7d-c1272e78131b.webp?v=1781513111</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa79cff17-100a-4968-4883-08da78a4a19b_2FDS-72810-1_b138f55b-8162-4c6f-b114-f5ecafa70d1f.webp?v=1781594067</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12569,7 +12569,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>dopaboost-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F96db0ab6-0077-4e24-4bd9-08da78a4a19b_2FDPB060-1_1be7444f-7cd6-4b5b-aa36-65ffd0ff49e7.webp?v=1781532677</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F96db0ab6-0077-4e24-4bd9-08da78a4a19b_2FDPB060-1_815d282d-b719-465f-bd97-f01b13cd45de.webp?v=1781609796</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12749,7 +12749,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>calcium-d-glucarate-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb4c5cf07-e472-49bd-b964-08db8e150420_2Fcal-d-glucarate-60-cdg060-150cc_1_1281513f-6fbe-4385-aad2-c7e7553715a8.webp?v=1781519783</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb4c5cf07-e472-49bd-b964-08db8e150420_2Fcal-d-glucarate-60-cdg060-150cc_1_c51e8174-841a-4734-9566-4ae84f89657b.webp?v=1781614421</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12769,7 +12769,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>lithium-synergy-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdde1eb2b-57c3-40ff-4bf6-08db13e8a93a_2FLSC120_front_b4afd922-046a-4a31-b1c7-5014e7246cbd.webp?v=1781544827</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdde1eb2b-57c3-40ff-4bf6-08db13e8a93a_2FLSC120_front_f126653a-25ad-4081-9e1d-50fdf8c95fa3.webp?v=1781607351</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12789,7 +12789,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>ferrochel-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F70ffcfa7-b360-42c2-4c6a-08da78a4a19b_2FFEC120-1_0e4207a3-2d8d-42d3-b1d0-de84c3d5598b.webp?v=1781551543</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F70ffcfa7-b360-42c2-4c6a-08da78a4a19b_2FFEC120-1_8cb9eeea-8438-4ee3-b8a6-435c745a8db7.webp?v=1781616440</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12932,7 +12932,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>plant-enzyme-digestive-formula-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F10caaea6-daf7-416e-51d2-08da78a4a19b_2FPEF090-1_4c40721b-8473-444e-849a-251eed18611f.webp?v=1781519773</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F10caaea6-daf7-416e-51d2-08da78a4a19b_2FPEF090-1_ba0077a8-7a24-4161-b352-e17974e8aafd.webp?v=1781614993</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13027,12 +13027,12 @@
     <product_type/>
     <description>&lt;p&gt;Liposomale glutathion levert 100 mg gereduceerde glutathion in elke portie. Dit product is geformuleerd met behulp van liposomale technologie, wat resulteert in superieure afgifte, absorptie en biobeschikbaarheid. Liposomale toediening omzeilt proteolytische afbraak in het maagdarmkanaal (GI) en is uniek effectief voor&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>68.56</price>
+    <price>61.76</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
     <handle>liposomal-glutathione-50-ml-liposomal</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9772fe79-7fec-4def-4e97-08da78a4a19b_2FLipoGlut.webp?v=1781519771</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9772fe79-7fec-4def-4e97-08da78a4a19b_2FLipoGlut_eb943d6d-7bde-495b-a92b-c69ffca809ae.webp?v=1781595858</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13072,7 +13072,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>prenatal-pro-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9abc1f40-1ff5-4b81-4c00-08db13e8a93a_2FPRE120.webp?v=1781523592</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9abc1f40-1ff5-4b81-4c00-08db13e8a93a_2FPRE120_ddc29adf-f31b-4fdd-9f37-5ad5914f8cbf.webp?v=1781617462</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13092,7 +13092,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>amino-d-tox-180-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F02326559-fdf3-4c14-4be1-08db13e8a93a_2Famt180-5-300cc_3372c9ea-dc7c-41c4-8046-8193e38d611c.webp?v=1781539880</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F02326559-fdf3-4c14-4be1-08db13e8a93a_2Famt180-5-300cc_44a798d7-e488-4edf-b652-8b16bbf38049.webp?v=1781614983</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13212,7 +13212,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>l-glutamine-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb8f72e55-3faa-4620-9023-08dafc88ac75_2FL-Glutamine_8f859848-aa8d-4e8c-b812-2b166997fc26.webp?v=1781590302</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb8f72e55-3faa-4620-9023-08dafc88ac75_2FL-Glutamine_40b8ecb2-1341-49a6-addb-067a7143ac2c.webp?v=1781616413</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13247,7 +13247,7 @@
     <product_type/>
     <description>&lt;p&gt;Source of Life® GOLD Liquid is de vloeibare variant van de Source of Life GOLD-tabletten. Source of Life® GOLD is de doorontwikkelde formule van de Source of Life-serie. Het is de ultieme multivitamine met natuurlijke, actieve ingrediënten voor meer energie, met antioxidanten en een anti-aging blend. De voornaamste taa&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>79.18</price>
+    <price>71.33</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -13312,7 +13312,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>cal-mag-vit-d3-with-vitamin-k2-90-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd7be96dd-5f05-4f23-719c-08dc4a6854e9_2F33646-01_5000x_57f6b541-ed48-4219-8e4f-6326cd0966df.webp?v=1781513839</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd7be96dd-5f05-4f23-719c-08dc4a6854e9_2F33646-01_5000x_8620a28a-5221-494f-9505-bb1b6e584208.webp?v=1781618452</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13367,7 +13367,7 @@
     <product_type/>
     <description>&lt;p&gt;Liposomal Vitamine C levert vitamine C ingebed in liposomen. Liposomen zijn zeer kleine, bolvormige blaasjes waarvan het membraan, bestaande uit fosfolipiden, een waterige oplossing omsluit. In dit geval bevat het vitamine C en natuurlijke citrusolie als smaakstof. Door hun structuur verbinden liposomen zich gemakkelij&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>49.07</price>
+    <price>44.20</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -13392,7 +13392,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>zinc-supreme-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd8c165e3-986a-4583-5591-08da78a4a19b_2FZNP090-1_eb59adb8-189b-451d-b3ee-1e2c51a17997.webp?v=1781528659</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd8c165e3-986a-4583-5591-08da78a4a19b_2FZNP090-1_260bdf1c-a55d-499d-be5d-1426551ccc1f.webp?v=1781598678</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13412,7 +13412,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-glycinate-complex-240-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F47063501-c5d5-4b81-4f17-08da78a4a19b_2Fmagnesium-240_f87ff4d8-d6da-4118-93d1-0dff8edafcee.webp?v=1781404249</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F47063501-c5d5-4b81-4f17-08da78a4a19b_2Fmagnesium-240_c2c30a36-faa3-4b2e-8905-bd39a6143119.webp?v=1781594804</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13432,7 +13432,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>seratonin-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F90748c2b-e667-45b6-5314-08da78a4a19b_2FDS-76020-1_f5cac4eb-9d51-4c82-88a0-b64c80c7310c.webp?v=1781406769</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F90748c2b-e667-45b6-5314-08da78a4a19b_2FDS-76020-1_2a82c44c-fc57-451b-a6fc-72edc4e5184c.webp?v=1781598031</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13572,7 +13572,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>betaine-hcl-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa064f09a-c4f8-4642-49d6-08da78a4a19b_2FBHC120-1_566b6982-d557-4533-855e-9d0d9463d20d.webp?v=1781519811</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa064f09a-c4f8-4642-49d6-08da78a4a19b_2FBHC120-1_235fbf05-2a2d-4ab1-8b71-3010d3f09262.webp?v=1781618067</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13672,7 +13672,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-total-lemon-200-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc165e5f0-7f76-47dc-50cf-08da78a4a19b_2FNS-2018302-1_f7c3c35b-2b77-4c51-ad5a-d7d3cca9b327.webp?v=1781576284</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc165e5f0-7f76-47dc-50cf-08da78a4a19b_2FNS-2018302-1_e8074c13-9027-476e-8f0d-865e6879f03a.webp?v=1781620195</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13772,7 +13772,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>activomin-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6e79e2b5-b77f-4f32-7d8c-08dc4ab14d06_2FActivomin_-120Kapseln-Online-kaufen_f80cddad-8c1d-4243-8597-b4015dec51b6.webp?v=1781518161</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6e79e2b5-b77f-4f32-7d8c-08dc4ab14d06_2FActivomin_-120Kapseln-Online-kaufen_d22cdef7-922a-4a99-9bbc-53d874cb6f50.webp?v=1781616414</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13892,7 +13892,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>fibrecontrol-450-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f385425-1799-498b-901c-08dafc88ac75_2F332-front_5b661e87-4f9e-4dfb-8a04-1bb754b945cb.webp?v=1781588904</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f385425-1799-498b-901c-08dafc88ac75_2F332-front_a68f6970-f51f-4418-9457-1a61280b6e82.webp?v=1781595877</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13947,12 +13947,12 @@
     <product_type/>
     <description>&lt;p&gt;De uitscheiding van voedselresten, afvalstoffen en andere schadelijke stoffen kan worden ondersteund door een gerichte aanvoer van geselecteerde planten en kruiden. MikroSan combineert de geconcentreerde plantaardige kracht van dille, venkel, rozenbottels, frambozenblaadjes, gember, oregano, rozemarijnblaadjes, saliebl&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>47.73</price>
+    <price>43.00</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
     <handle>mikrosan-1000-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8121573c-8638-4ce9-49a8-08dd0ef128fb_2Fmikrosan-1500px_a902ec59-8dec-422b-8e60-345e9d4a6565.webp?v=1781541661</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8121573c-8638-4ce9-49a8-08dd0ef128fb_2Fmikrosan-1500px_a2afdb24-3b23-47d4-9337-dfee0af59476.webp?v=1781616532</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14090,12 +14090,12 @@
     <product_type/>
     <description>&lt;p&gt;Vitamine D3 vloeistof 3.000 IE levert 3.000 IE natuurlijke vitamine D3 per druppel. D3 is de belangrijkste en meest effectieve vorm van vitamine D voor de mens. In het lichaam heeft het de functie van een prohormoon en wordt het via een tussenstadium omgezet in het actieve hormoon calcitriol.Met 75 mcg (3.000 IE) vitam&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>42.34</price>
+    <price>38.14</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
     <handle>vitamin-d3-liquid-3-000-iu-30-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F109afaf1-d9cb-429e-7d4e-08dc4ab14d06_2F265_794e2310-64db-4428-ac4c-8fb76f152629.webp?v=1781513110</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F109afaf1-d9cb-429e-7d4e-08dc4ab14d06_2F265_173ee9da-fdf1-4c41-9498-6549b26b904b.webp?v=1781593977</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14175,7 +14175,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-biotic-sr-9-56-x-3-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6ee461e5-46da-4e5e-324a-08dc4a4ec0d2_2FOMNi-BiOTiC_-SR-9-56-Sachets-a-3g-Online-kaufen_025ca9db-b5a1-45a9-adc7-9ff0f2991358.webp?v=1781542667</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6ee461e5-46da-4e5e-324a-08dc4a4ec0d2_2FOMNi-BiOTiC_-SR-9-56-Sachets-a-3g-Online-kaufen_c188a5b8-c399-40d0-85a9-0af0aff9a2e8.webp?v=1781616747</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14275,7 +14275,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>glycine-400-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F666d45c5-ee46-41ae-23ae-08dadc5a7c55_2FDS-130_f8d1b3e8-9e5d-4d64-b563-602e2a5d04f6.webp?v=1781533077</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F666d45c5-ee46-41ae-23ae-08dadc5a7c55_2FDS-130_7751654d-6607-4d9d-8b1e-2d3b65f63a1a.webp?v=1781600979</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14415,7 +14415,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-vegan-100-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f234b4e-1d66-4daf-50d2-08da78a4a19b_2FNS-2018301-1_521be4e7-2541-4d02-b330-e7e5ecd8f320.webp?v=1781555574</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f234b4e-1d66-4daf-50d2-08da78a4a19b_2FNS-2018301-1_382cbec5-6149-4e8b-a9d5-583560457c0a.webp?v=1781616415</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14432,10 +14432,10 @@
     <tags>vat-low</tags>
     <price>39.35</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>dhea-5-mg-180-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0dd18773-393b-489e-a8ce-08dc974308d8_2Fdhea5mg-dhe180-200cc_1_dfee4a91-a477-4049-ba86-1b7567622724.webp?v=1781407709</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0dd18773-393b-489e-a8ce-08dc974308d8_2Fdhea5mg-dhe180-200cc_1_54ef3910-0a07-401b-9697-20991c4dcce5.webp?v=1781618409</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14535,7 +14535,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>mitochondrial-nrg-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Faf6ef8f6-d8ac-48c9-4fd0-08da78a4a19b_2FMHN120-1_5044e04c-5835-4e09-bc89-6d3fd7ad0197.webp?v=1781591411</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Faf6ef8f6-d8ac-48c9-4fd0-08da78a4a19b_2FMHN120-1_09fcd482-123f-4bb3-8976-7c67fa273709.webp?v=1781616786</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14595,7 +14595,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>super-b-50-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F4c3d81c0-170d-42b2-7d97-08dc4ab14d06_2F1320-01_5000x_jpg_882d8b48-6a7b-4b59-b58c-e69f833a3fd7.webp?v=1781408673</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F4c3d81c0-170d-42b2-7d97-08dc4ab14d06_2F1320-01_5000x_jpg_0e5795c7-e2b4-4c47-b8d4-484b15c950c2.webp?v=1781597926</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14650,12 +14650,12 @@
     <product_type/>
     <description>&lt;p&gt;Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>44.35</price>
+    <price>39.95</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
     <handle>concentrace-trace-mineral-drops-237-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F68bb6101-8e05-417f-71f0-08dc4a6854e9_2FTMD01_-_ConcenTrace_8oz_29b7fcd9-be12-4887-b92f-32c49ee7b62_32ded7ce-6141-4997-a842-8d21d3fdcb96.webp?v=1781535332</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F68bb6101-8e05-417f-71f0-08dc4a6854e9_2FTMD01_-_ConcenTrace_8oz_29b7fcd9-be12-4887-b92f-32c49ee7b62_14dd243f-a04c-44c5-a500-c3163e53749f.webp?v=1781602139</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14675,7 +14675,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>probiophage-df-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ffe0fb4b1-6765-4e67-5216-08da78a4a19b_2Fprobiophage-60-capsules-designs-for-health_e8ecc719-a1a4-4272-a2b0-5c7a1942dd3a.webp?v=1781405492</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ffe0fb4b1-6765-4e67-5216-08da78a4a19b_2Fprobiophage-60-capsules-designs-for-health_2ed8b2db-9666-4a9f-a8c2-43f531ccb239.webp?v=1781600226</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14775,7 +14775,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>inflamed-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc29eb483-1638-4754-4da5-08da78a4a19b_2FDS-74730-1_10acc6d8-09dc-402c-b3a7-3db30a1f27d3.webp?v=1781513833</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc29eb483-1638-4754-4da5-08da78a4a19b_2FDS-74730-1_e0b5a841-22a4-49bc-8489-b327a7ca6273.webp?v=1781603655</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14995,7 +14995,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>dhea-10-mg-60-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9be709a1-44c2-40a4-4b8e-08da78a4a19b_2FDS-74780-1_9fc43f8f-705b-4516-b60f-cd6d0665f7c5.webp?v=1781531828</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9be709a1-44c2-40a4-4b8e-08da78a4a19b_2FDS-74780-1_db87a69b-42ec-4862-b8ee-42884554e091.webp?v=1781600229</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15130,7 +15130,7 @@
     <product_type/>
     <description>&lt;p&gt;Emulsi-D3 Synergy ™ is een geconcentreerde vloeibare vitamine D-formule die 50 mcg (2.000 I.E.) vitamine D3 (cholecalciferol) levert, samen met 250 mcg vitamine K1 en 25 mcg vitamine K2 per milliliter. Net als vitamine K draagt vitamine D bij tot de instandhouding van onze botten. Bovendien is vitamine D betrokken bij &lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>52.09</price>
+    <price>46.92</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -15175,7 +15175,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>source-of-life-women-120-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2Fd7b4dc67-f396-4eab-3291-08dc4a4ec0d2_2F30950-01_5000x_jpg_a34a0352-0c82-4bb6-8bd1-1a6b8fad607c.webp?v=1781528529</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2Fd7b4dc67-f396-4eab-3291-08dc4a4ec0d2_2F30950-01_5000x_jpg_4717d766-5473-4edf-b129-5408b9d88e3c.webp?v=1781594098</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15330,7 +15330,7 @@
     <product_type/>
     <description>&lt;p&gt;Liposomale B Supreme is een innovatief B-complex product geformuleerd met liposomale technologie voor optimale absorptie en biologische beschikbaarheid. Elke portie van 1 ml (ongeveer 2 pompjes) van deze formule met milde citrussmaak bevat gerichte hoeveelheden van de zeer bioactieve vormen van thiamine, riboflavine, n&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>75.27</price>
+    <price>67.81</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -15404,7 +15404,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>ultra-source-of-life-180-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ffbd6e9a2-25f2-4563-32b8-08dc4a4ec0d2_2F3052-01_5000x_2f454f77-705a-4eaf-80f1-be3b4517be26.webp?v=1781532833</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ffbd6e9a2-25f2-4563-32b8-08dc4a4ec0d2_2F3052-01_5000x_5e4a8bee-b685-455e-bb0c-5a8cde3b5c34.webp?v=1781594387</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15684,7 +15684,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>femguard-balance-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Facf47d2e-6a17-48a6-4c63-08da78a4a19b_2Ffemguard-balance_120_capsules-1_b2e47fa9-ad6e-4cf6-92f8-b5b7aef56afc.webp?v=1781519769</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Facf47d2e-6a17-48a6-4c63-08da78a4a19b_2Ffemguard-balance_120_capsules-1_0fb9afc7-f1d0-41d9-9a7a-b4f54c00df9e.webp?v=1781616395</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15719,7 +15719,7 @@
     <product_type/>
     <description>&lt;p&gt;Dr Wilsons Herbal Adrenal Support Formula bevat adaptogene kruiden voor stress en bijnierondersteuning- Actieve bestanddelen met volledig spectrum die optimaal worden geëxtraheerd en bewaard in tinctuur*- Gebruiksvriendelijke vloeistof vergemakkelijkt de opname en het gebruik*- Helpt bij het ondersteunen van stemming, &lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>64.46</price>
+    <price>58.06</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -16163,10 +16163,10 @@
     <tags>vat-low</tags>
     <price>42.44</price>
     <compare_at_price/>
-    <available>true</available>
+    <available>false</available>
     <quantity>0</quantity>
     <handle>ultra-c-90-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F8fc7c2c9-97b2-4d8a-325b-08dc4a4ec0d2_2F2221-01_5000x_jpg_d92ce6c6-8206-44a5-b814-64c8a2958793.webp?v=1781576283</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F8fc7c2c9-97b2-4d8a-325b-08dc4a4ec0d2_2F2221-01_5000x_jpg_b78610f4-765d-4a4d-a2ed-9b61c91717ef.webp?v=1781600240</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -16281,7 +16281,7 @@
     <product_type/>
     <description>&lt;p&gt;Liquid Molybdenum bevat 25 µg molybdeen per druppel en is een verdunde oplossing van ammoniummolybdaat. Molybdeen is betrokken bij het metabolisme van zwavel, de vorming van urinezuur en de ontgiftten van sulfieten, alcohol en sommige chemicaliën. Dit inname van dit product kan geleidelijk worden verhoogd. Opmerking: V&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>24.16</price>
+    <price>21.77</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -16321,7 +16321,7 @@
     <product_type/>
     <description>&lt;p&gt;Micro Liposomal C levert vitamine C in pure essentiële fosfolipiden. De liposomen zijn meerdere malen kleiner dan andere vitamine C liposomen producten. Schenkt vrij als vloeistof en smaakt heerlijk.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>51.45</price>
+    <price>46.35</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -16366,7 +16366,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-biotic-woman-28-x-2-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa160d872-8ccf-4e82-331d-08dc4a4ec0d2_2Fomni-biotic-woman-28-2g_39b0e424-ccfc-43dc-88a9-0f781cc22364.webp?v=1781512305</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa160d872-8ccf-4e82-331d-08dc4a4ec0d2_2Fomni-biotic-woman-28-2g_48416636-2be0-42b6-bfc5-4c52c97e361d.webp?v=1781603309</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -16532,12 +16532,12 @@
     <product_type/>
     <description>&lt;p&gt;Melatonin vloeibaar is bedoeld voor mensen die graag een pure en vloeibare toediening van melatonine hebben, bijvoorbeeld omdat het melatonine via het mondslijmvlies wordt opgenomen. Op deze manier wordt het spijsverteringskanaal omzeild. Daarnaast is dit product geschikt voor het gemakkelijk innemen van hogere doserin&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>35.08</price>
+    <price>31.60</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
     <handle>melatonin-liquid-30-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F077308a1-5d72-451d-4a6e-08daabc33ba0_2FDS-169-1_afa79e32-1a4a-4f56-9f61-8cd2d6421d62.webp?v=1781513102</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F077308a1-5d72-451d-4a6e-08daabc33ba0_2FDS-169-1_c886c836-6874-4094-83e0-2e6ab0eeaccc.webp?v=1781600225</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -16572,7 +16572,7 @@
     <product_type/>
     <description>&lt;p&gt;Dit product levert 1.000 IE vitamine D3 per druppel. Het bevat natuurlijke vitamine D3 (cholecalciferol), die wordt verkregen door UVB-straling van lanoline (schapen).De vitamine D is opgelost in een kokosolie-extract met een hoog gehalte aan Medium Chain Triglyceriden (MCT&amp;#39;s).Door te kiezen voor een suspensie van een &lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>41.13</price>
+    <price>37.05</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -16881,7 +16881,7 @@
     <available>false</available>
     <quantity>0</quantity>
     <handle>source-of-life-gold-multivitamin-minitablets-180-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F744fa62d-10d0-4160-323f-08dc4a4ec0d2_2F30714_4_0fbdd1b5-3694-410a-b5df-d94cc8bd5aec.webp?v=1781407844</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F744fa62d-10d0-4160-323f-08dc4a4ec0d2_2F30714_4_f7579f83-04cc-44df-aa6e-6e65a8b31098.webp?v=1781594113</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -16921,7 +16921,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>resveratrol-supreme-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2a3af076-a61f-40d2-52af-08da78a4a19b_2FRVS060-1_230b42ee-bfeb-490d-b18a-d4f4155988b7.webp?v=1781519748</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2a3af076-a61f-40d2-52af-08da78a4a19b_2FRVS060-1_1aff766c-fa1d-4fa0-8e7e-c3a30166f8c1.webp?v=1781609857</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -16981,7 +16981,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>immunitone-plus-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3d59aec2-b555-4031-4d95-08da78a4a19b_2FIMP120-1_808d7a71-6006-42e3-8260-f4d5dbf518cd.webp?v=1781557001</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3d59aec2-b555-4031-4d95-08da78a4a19b_2FIMP120-1_d1b1dcb2-d17c-40ab-9598-7570c63f0e27.webp?v=1781610322</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -17161,7 +17161,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>primal-multi-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8e8a6f02-d40a-4839-4c01-08db13e8a93a_2FPLM120_front_2591e7c2-7fcb-4a46-bdd1-b21c7160dee9.webp?v=1781528779</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8e8a6f02-d40a-4839-4c01-08db13e8a93a_2FPLM120_front_55df8921-4cd3-4031-80e9-aeee6950abc6.webp?v=1781604814</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -17221,7 +17221,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>brain-vitale-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3b0f9433-d996-41ef-4a46-08da78a4a19b_2Fbrain_vitale_60_5cdacfd1-64b5-4e60-bdde-a4bf2bc0b08f.webp?v=1781519780</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3b0f9433-d996-41ef-4a46-08da78a4a19b_2Fbrain_vitale_60_a147489f-5dbe-40c0-b15f-ee8657baabc1.webp?v=1781614804</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -17341,7 +17341,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>esterol-ester-c-200-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc5336e4f-e2fd-4cca-4c2b-08da78a4a19b_2F70080_Esterol_Ester-C-Product_Shot_6fe3d446-5317-4316-89b7-d121cfde3e82.webp?v=1781403272</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc5336e4f-e2fd-4cca-4c2b-08da78a4a19b_2F70080_Esterol_Ester-C-Product_Shot.webp?v=1781595875</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -17496,7 +17496,7 @@
     <product_type/>
     <description>&lt;p&gt;Zuivere natriumselenietoplossing, die goed wordt opgenomen en geschikt kan zijn voor personen die gevoelig zijn voor andere vormen van selenium. Het seleniet wordt opgelost in zuiver, gedeïoniseerd water, waardoor de dosis naar behoefte kan worden geregeld. Het product wordt gesteriliseerd met warmte in plaats van met &lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>23.87</price>
+    <price>21.51</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -17656,7 +17656,7 @@
     <product_type/>
     <description>&lt;p&gt;Solution of Magnesium bevat 66,5 mg magnesium per theelepel. Magnesium speelt een rol bij het in stand houden van sterke spieren en ondersteunt het energiemetabolisme. Het heeft een positief effect op de werking van het zenuwstelsel en draagt bij aan celvernieuwing. Elke cel heeft mineralen nodig voor zijn structuur en&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>28.88</price>
+    <price>26.02</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -17736,7 +17736,7 @@
     <product_type/>
     <description>&lt;p&gt;Liposomale Zen™ is een geavanceerde toedieningsversie van ons product, 200 mg Zen, dat GABA en L-theanine bevat. Het liposomale afgiftesysteem maakt gebruik van pure essentiële fosfolipiden uit sojalecithine, voor een betere directe opname.&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>61.32</price>
+    <price>55.24</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -17818,10 +17818,10 @@
     <tags>vat-low</tags>
     <price>49.34</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-glycinate-powder-150-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F30853bcb-4eb8-4a1d-4f1a-08da78a4a19b_2Fmcp150_render_1_8257e659-5d82-4018-9558-4f42aa126a57.webp?v=1781510777</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F30853bcb-4eb8-4a1d-4f1a-08da78a4a19b_2Fmcp150_render_1_2135b4c0-f9f5-4a1b-8711-c142f163efc3.webp?v=1781617972</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -18001,7 +18001,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>berberine-synergy-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8ca044d2-3e45-4a5f-49c0-08da78a4a19b_2FBER060-1_c8a1a826-3aef-4b5f-a9bf-cfa749918a4c.webp?v=1781519768</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8ca044d2-3e45-4a5f-49c0-08da78a4a19b_2FBER060-1_e0db8caa-8582-43be-8709-6b26efd93b38.webp?v=1781614241</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -18121,7 +18121,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>carnitine-synergy-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc76b815a-306e-4062-4aab-08da78a4a19b_2FCSC120-1_2a170a2a-96b1-446b-954e-c25b1ca3a389.webp?v=1781519776</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc76b815a-306e-4062-4aab-08da78a4a19b_2FCSC120-1_326a0bef-5ac8-4095-916e-39de739c4c29.webp?v=1781617086</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -18278,10 +18278,10 @@
     <tags>vat-low</tags>
     <price>58.12</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>prostate-supreme-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F4f9399cf-d742-4fce-4805-08da8f5ee7ff_2FProstate_Supreme1_8450b242-3cbd-4d14-8ce0-4d268305219f.webp?v=1781406905</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F4f9399cf-d742-4fce-4805-08da8f5ee7ff_2FProstate_Supreme1.webp?v=1781609781</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -18576,7 +18576,7 @@
     <product_type/>
     <description>&lt;p&gt;Source of Life® GOLD Liquid is de vloeibare variant van de Source of Life GOLD-tabletten. Source of Life® GOLD is de doorontwikkelde formule van de Source of Life-serie. Het is de ultieme multivitamine met natuurlijke, actieve ingrediënten voor meer energie, met antioxidanten en een anti-aging blend. De voornaamste taa&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>26.56</price>
+    <price>23.93</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
@@ -18856,12 +18856,12 @@
     <product_type/>
     <description>&lt;p&gt;Bundelaanbieding Vitaplex vitamine D3 &amp;amp;amp; K2  Productnummers  265  en  310  samen in èèn pakket.   Vitamine D3 vloeibaar 3.000 IE   levert per druppel 3.000 IE (75 mcg) natuurlijk vitamine D3 dat wordt gewonnen middels uv-B-straling van wolvet (schaap). Vitamine D3 is voor mensen de fysiologisch meest belangrijke en &lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>66.55</price>
+    <price>59.95</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
     <handle>combi-deal-vitamin-d3-and-k2</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe4d070a2-73e4-41c1-3284-08dc4a4ec0d2_2FCombi1_b41f588a-b14b-495a-99e3-c70b5d02faf9.webp?v=1781522044</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe4d070a2-73e4-41c1-3284-08dc4a4ec0d2_2FCombi1.webp?v=1781600239</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -19101,7 +19101,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>electropure-hydration-14-x-8-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F397e74b4-77fd-4e77-b2cd-08ddce9d5c9e_2Felphyd-electropure-hydration-14stickpacks_1.webp?v=1781408534</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F397e74b4-77fd-4e77-b2cd-08ddce9d5c9e_2Felphyd-electropure-hydration-14stickpacks_1_b47827e5-c531-4726-99b1-1e59a0829a9e.webp?v=1781609992</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -19138,10 +19138,10 @@
     <tags>vat-low</tags>
     <price>41.47</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>l-lysine-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb2fb731e-a882-46d1-b2d0-08ddce9d5c9e_2Fl-lysine-lys120-300cc_1.webp?v=1781409065</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb2fb731e-a882-46d1-b2d0-08ddce9d5c9e_2Fl-lysine-lys120-300cc_1_ad05cb1b-e185-4c5b-b4d1-27a40c3049d7.webp?v=1781616306</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -19176,7 +19176,7 @@
     <product_type/>
     <description>&lt;p&gt;Dr Wilsons Herbal HPA is een dropvrije adaptogene kruidenformule voor stress en kalmerende ondersteuning.- Actieve bestanddelen met volledig spectrum die optimaal worden geëxtraheerd en bewaard in tinctuur- Gebruiksvriendelijke vloeistof vergemakkelijkt de opname en het gebruik- Helpt de stemming, slaap en uithoudingsv&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>60.43</price>
+    <price>54.43</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -19296,7 +19296,7 @@
     <product_type/>
     <description>&lt;p&gt;Caricol-Gastro® bevat de waardevolle ingrediënten van een gepatenteerd biologisch haverpreparaat en Caricol®, een gepatenteerd extract van boomgerijpte biologische papaja&amp;#39;s.Haver is een bekende traditionele remedie tegen gastro-intestinale problemen. Avenanthramides – effectieve polyfenolen – hebben bewezen bijzonder e&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>26.38</price>
+    <price>23.76</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -19356,7 +19356,7 @@
     <product_type/>
     <description>&lt;p&gt;Wat is LipoPhos® EDTA? LipoPhos® EDTA bevat een mix van EDTA en hoogwaardige fosfolipiden, waaronder fosfatidylcholine, fosfatidylinositol en fosfatidylethanolamine. Deze fosfolipiden worden op een unieke wijze verkregen uit zonnebloemlecithine, waarbij een liposomale structuur ontstaat. Liposomen zijn kleine vetbollet&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>61.32</price>
+    <price>55.24</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -19556,7 +19556,7 @@
     <product_type/>
     <description>&lt;p&gt;This product provides concentrated vitamin B6 in a delicious raspberry flavored liquid and is ideal for those who require higher doses of this often lacking nutrient and/or who prefer a liquid form over pills. B6 occurs naturally in several forms, but specific ones are needed by the body for particular functions. Vitam&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>38.65</price>
+    <price>34.81</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -19901,7 +19901,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>b-supreme-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7714eef0-4d7e-49eb-497e-08da78a4a19b_2Fb-supreme-60-bsp060-150cc_1_2d812151-dbc0-49a5-906b-9cb63c476b42.webp?v=1781553895</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7714eef0-4d7e-49eb-497e-08da78a4a19b_2Fb-supreme-60-bsp060-150cc_1_fcf51c7d-8c2c-48a6-825c-bba98cc07199.webp?v=1781611688</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20121,7 +20121,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-kids-jelly-120-chewables</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbdb8bb3f-ca75-41c1-b29d-08db9975e196_2FNorsan_OMEGA-3_KIDS_JELLY_120_gummies_76365173-8def-4362-bd1b-8dbb7dee7401.webp?v=1781406823</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbdb8bb3f-ca75-41c1-b29d-08db9975e196_2FNorsan_OMEGA-3_KIDS_JELLY_120_gummies_a047fe68-5efc-4be3-856f-343d01f5d587.webp?v=1781600969</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20218,10 +20218,10 @@
     <tags>vat-low</tags>
     <price>27.54</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>chromium-synergy-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ff38eb994-6c77-4693-4aec-08da78a4a19b_2FCHR090-1_2368c1e3-a06a-4c4e-af19-a924528a8c92.webp?v=1781402859</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ff38eb994-6c77-4693-4aec-08da78a4a19b_2FCHR090-1_d72c1b56-a751-4fd2-b1e6-2ea24d9072d7.webp?v=1781617251</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20276,7 +20276,7 @@
     <product_type/>
     <description>&lt;p&gt;C Liquazome™ is een heerlijk smakende, krachtige formule die een gepatenteerd liposomaal proces gebruikt om zeer bio-beschikbare vitamine C af te leveren.C Liquazome levert vitamine C op twee manieren: 1. Via gespecialiseerde SVCT1-receptoren die natrium (in natriumascorbate) gebruiken om opname te bevorderen. 2. Via l&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>46.75</price>
+    <price>42.12</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -20336,7 +20336,7 @@
     <product_type/>
     <description>&lt;p&gt;Hi-Po Emulsi-A™ is een krachtige formule die geconcentreerde vitamine A levert in een handige vloeibare vorm. Slechts één druppel van dit unieke product levert 5.000 IE vitamine A, als retinolpalmitaat (1.500 mcg retinolactiviteitsequivalenten [RAE]), wat zorgt voor flexibiliteit in titratie en gebruiksgemak. Vitamine &lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>42.01</price>
+    <price>37.84</price>
     <compare_at_price/>
     <available>true</available>
     <quantity>0</quantity>
@@ -20361,7 +20361,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>pregnenolone-crt-60-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa410b293-7958-4bba-b2d6-08ddce9d5c9e_2FPCRT60_0f009d3d-9be2-432c-83e3-ec8e531a4976.webp?v=1781409125</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa410b293-7958-4bba-b2d6-08ddce9d5c9e_2FPCRT60_16ddeb40-ab00-40ce-b8b2-084256daf231.webp?v=1781603974</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20398,10 +20398,10 @@
     <tags>vat-low</tags>
     <price>77.50</price>
     <compare_at_price/>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>histaeze-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F46b33a25-efb8-4721-4bf0-08db13e8a93a_2FHIS120_front_1ffde6d4-3c8e-477c-9107-04d1683ab4a1.webp?v=1781406682</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F46b33a25-efb8-4721-4bf0-08db13e8a93a_2FHIS120_front_e8333b47-0395-4a69-b38f-c2df09e98bb6.webp?v=1781609962</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20456,7 +20456,7 @@
     <product_type/>
     <description>&lt;p&gt;Vitamine A is een essentiële voedingsstof die betrokken is bij een aantal fysiologische functies, waaronder immuunmechanismen, gezichtsvermogen en celgroei en -ontwikkeling. Vitamine A ondersteunt ook de maag-darmbarrière. Liqua-A™ levert een krachtige antioxidant vitamine A, voornamelijk in de vorm van bètacaroteen, e&lt;/p&gt;</description>
     <tags>vat-liquid</tags>
-    <price>27.26</price>
+    <price>24.56</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
