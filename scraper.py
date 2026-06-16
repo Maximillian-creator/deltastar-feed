@@ -1,10 +1,9 @@
 """
 Deltastar scraper
 - Haalt alle producten op via products.json (alle pagina's)
-- Berekent prijs incl. BTW (9% als tag 'vat-low', anders 21%)
-- Scrapt uitgebreide beschrijving van live productpagina
+- Scrapt live pagina voor: prijs, beschrijving, dosering, allergenen, waarschuwingen, bewaren
+- Berekent prijs incl. BTW (9% bij vat-low tag, anders 21%)
 - Genereert één gecombineerde XML voor Stock Sync
-- Slaat XML op in de repository
 """
 
 import requests
@@ -30,7 +29,7 @@ HEADERS = {
 def fetch_all_products():
     products = []
     page = 1
-    print("📦 Producten ophalen...")
+    print("📦 Producten ophalen via JSON API...")
 
     while True:
         url = f"{BASE_URL}/products.json?limit=250&page={page}"
@@ -50,70 +49,120 @@ def fetch_all_products():
     return products
 
 
-def fetch_product_details(handle):
-    """Haalt uitgebreide beschrijving + prijs op van de live productpagina."""
+def extract_meta(html, property_name):
+    """Haal een meta-tag waarde op uit HTML."""
+    match = re.search(
+        rf'<meta[^>]+property=["\']og:{property_name}["\'][^>]+content=["\']([^"\']+)["\']',
+        html
+    )
+    if not match:
+        match = re.search(
+            rf'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:{property_name}["\']',
+            html
+        )
+    return match.group(1) if match else None
+
+
+def extract_section(html, heading):
+    """
+    Haal de tekst op na een heading (bijv. 'Dosering', 'Allergenen').
+    Zoekt in de HTML naar het patroon: heading gevolgd door tekst.
+    """
+    # Patroon 1: <h2>Heading</h2> gevolgd door tekst in <p> of <div>
+    pattern = rf'##\s*{heading}\s*\*?\*?[^#]*?(?=##|$)'
+    # Probeer in de raw HTML
+    patterns = [
+        # Patroon: heading in een element, gevolgd door content
+        rf'(?:<[^>]*>)*\s*{heading}\s*(?:</[^>]*>)*\s*(?:<[^>]*>)*\s*(.*?)(?=<(?:h[1-6]|div\s+class="accordion)|$)',
+        # Patroon: eenvoudiger
+        rf'{heading}\s*</(?:h2|h3|strong|b|summary)>\s*</?\w[^>]*>\s*(.*?)(?=<(?:h[1-6]|div\s+class="accordion)|$)',
+    ]
+
+    for p in patterns:
+        match = re.search(p, html, re.DOTALL | re.IGNORECASE)
+        if match:
+            text = match.group(1)
+            # Strip HTML tags
+            text = re.sub(r'<[^>]+>', ' ', text)
+            # Clean whitespace
+            text = re.sub(r'\s+', ' ', text).strip()
+            # Verwijder lege resultaten of navigatie-tekst
+            if text and len(text) > 3 and "winkelwagen" not in text.lower():
+                return text
+
+    return None
+
+
+def fetch_live_details(handle):
+    """Haalt uitgebreide info op van de live productpagina."""
     url = f"{BASE_URL}{LOCALE}/products/{handle}"
+    result = {
+        "price": None,
+        "description": None,
+        "dosering": None,
+        "allergenen": None,
+        "waarschuwingen": None,
+        "bewaren": None,
+    }
+
     try:
         response = requests.get(url, headers=HEADERS, timeout=15)
         response.raise_for_status()
         html = response.text
 
-        # Live prijs
-        price = None
-        match = re.search(
-            r'<meta[^>]+property=["\']og:price:amount["\'][^>]+content=["\']([^"\']+)["\']',
-            html
-        )
-        if not match:
-            match = re.search(
-                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:price:amount["\']',
-                html
-            )
-        if match:
-            price = float(match.group(1).replace(",", "."))
+        # Prijs uit og:price:amount
+        price_str = extract_meta(html, "price:amount")
+        if price_str:
+            result["price"] = float(price_str.replace(",", "."))
 
-        # Uitgebreide beschrijving: pak alles tussen product-description secties
-        description = None
-
-        # Probeer de volledige beschrijvingstekst te pakken inclusief dosering/allergenen
-        sections = []
-
-        # Beschrijving
-        desc_match = re.search(
-            r'<div[^>]*class="[^"]*rte[^"]*"[^>]*>(.*?)</div>',
-            html, re.DOTALL
-        )
-        if desc_match:
-            sections.append(desc_match.group(1).strip())
+        # Beschrijving uit og:description
+        desc = extract_meta(html, "description")
+        if desc:
+            result["description"] = desc
 
         # Dosering
-        dos_match = re.search(
-            r'(?:Dosering|Dosage|Directions)[^<]*</[^>]+>\s*<[^>]+>\s*(.*?)(?=<(?:h[123456]|strong|div class))',
-            html, re.DOTALL | re.IGNORECASE
-        )
-        if dos_match:
-            dosage_text = re.sub(r'<[^>]+>', ' ', dos_match.group(1)).strip()
-            if dosage_text:
-                sections.append(f"<p><strong>Dosering:</strong> {dosage_text}</p>")
+        result["dosering"] = extract_section(html, "Dosering")
 
         # Allergenen
-        allerg_match = re.search(
-            r'(?:Allergenen|Allergens)[^<]*</[^>]+>\s*<[^>]+>\s*(.*?)(?=<(?:h[123456]|strong|div class))',
-            html, re.DOTALL | re.IGNORECASE
-        )
-        if allerg_match:
-            allerg_text = re.sub(r'<[^>]+>', ' ', allerg_match.group(1)).strip()
-            if allerg_text:
-                sections.append(f"<p><strong>Allergenen:</strong> {allerg_text}</p>")
+        result["allergenen"] = extract_section(html, "Allergenen")
 
-        if sections:
-            description = "\n".join(sections)
+        # Waarschuwingen
+        result["waarschuwingen"] = extract_section(html, "Waarschuwingen")
 
-        return price, description
+        # Bewaren
+        result["bewaren"] = extract_section(html, "Bewaren")
 
     except Exception as e:
-        print(f"    ⚠️  Fout bij ophalen {handle}: {e}")
-        return None, None
+        print(f"    ⚠️  Fout bij {handle}: {e}")
+
+    return result
+
+
+def build_description(live, fallback_html):
+    """Bouwt een rijke beschrijving op uit alle beschikbare info."""
+    parts = []
+
+    # Hoofdbeschrijving
+    desc = live.get("description") or ""
+    if desc:
+        parts.append(f"<p>{desc}</p>")
+    elif fallback_html:
+        parts.append(fallback_html)
+
+    # Extra secties
+    if live.get("dosering"):
+        parts.append(f"<p><strong>Dosering:</strong> {live['dosering']}</p>")
+
+    if live.get("allergenen"):
+        parts.append(f"<p><strong>Allergenen:</strong> {live['allergenen']}</p>")
+
+    if live.get("waarschuwingen"):
+        parts.append(f"<p><strong>Waarschuwingen:</strong> {live['waarschuwingen']}</p>")
+
+    if live.get("bewaren"):
+        parts.append(f"<p><strong>Bewaren:</strong> {live['bewaren']}</p>")
+
+    return "\n".join(parts) if parts else fallback_html or ""
 
 
 def build_xml(products):
@@ -125,22 +174,22 @@ def build_xml(products):
         title = product.get("title", "")
         vendor = product.get("vendor", "")
         product_type = product.get("product_type", "")
-        description_html = product.get("body_html", "") or ""
+        body_html = product.get("body_html", "") or ""
         tags = product.get("tags", [])
         tags_str = ", ".join(tags)
         images = product.get("images", [])
         image_url = images[0].get("src", "") if images else ""
 
-        # BTW bepalen op basis van tags
+        # BTW bepalen
         btw = BTW_LAAG if "vat-low" in tags else BTW_HOOG
         btw_label = "9%" if btw == BTW_LAAG else "21%"
 
-        # Uitgebreide beschrijving + live prijs ophalen
-        print(f"  [{i}/{total}] {title[:50]}... (BTW: {btw_label})")
-        live_price, live_description = fetch_product_details(handle)
+        # Live details ophalen
+        print(f"  [{i}/{total}] {title[:60]}... (BTW: {btw_label})")
+        live = fetch_live_details(handle)
 
-        # Beschrijving: gebruik live versie als die beschikbaar is
-        final_description = live_description if live_description else description_html
+        # Rijke beschrijving samenstellen
+        full_description = build_description(live, body_html)
 
         for variant in product.get("variants", []):
             sku = variant.get("sku", "")
@@ -148,9 +197,9 @@ def build_xml(products):
             available = variant.get("available", False)
             quantity = variant.get("inventory_quantity", 0)
 
-            # Prijs: gebruik live prijs als beschikbaar, anders JSON × BTW
-            if live_price is not None:
-                price = live_price
+            # Prijs: live og:price × BTW, fallback: JSON prijs × BTW
+            if live.get("price") is not None:
+                price = round(live["price"] * btw, 2)
             else:
                 raw_price = float(variant.get("price", "0"))
                 price = round(raw_price * btw, 2)
@@ -176,7 +225,7 @@ def build_xml(products):
             add("title", title)
             add("vendor", vendor)
             add("product_type", product_type)
-            add("description", final_description)
+            add("description", full_description)
             add("tags", tags_str)
             add("price", f"{price:.2f}")
             add("compare_at_price", f"{compare_at_price:.2f}" if compare_at_price else "")
@@ -203,17 +252,19 @@ def save_xml(root, filepath):
         lines[0] = '<?xml version="1.0" encoding="UTF-8"?>'
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"💾 XML opgeslagen: {filepath}")
+    print(f"\n💾 XML opgeslagen: {filepath}")
 
 
 def main():
     print("🚀 Deltastar scraper gestart\n")
     start = time.time()
+
     products = fetch_all_products()
     root = build_xml(products)
     save_xml(root, OUTPUT_FILE)
+
     elapsed = time.time() - start
-    print(f"\n⏱️  Klaar in {elapsed:.0f} seconden")
+    print(f"⏱️  Klaar in {elapsed:.0f} seconden")
     print(f"\n📋 Feed URL voor Stock Sync:")
     print(f"https://raw.githubusercontent.com/Maximillian-creator/deltastar-feed/main/deltastar_feed.xml")
 
