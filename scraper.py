@@ -2,7 +2,7 @@
 Deltastar scraper
 - Haalt alle producten op via products.json (alle pagina's)
 - Scrapt live pagina voor: prijs, beschrijving, dosering, allergenen, waarschuwingen, bewaren
-- Berekent prijs incl. BTW (9% bij vat-low tag, anders 21%)
+- Berekent prijs incl. BTW (9% bij vat-low/vat-liquid tag, anders 21%)
 - Genereert één gecombineerde XML voor Stock Sync
 """
 
@@ -181,7 +181,8 @@ def build_xml(products):
         image_url = images[0].get("src", "") if images else ""
 
         # BTW bepalen
-        btw = BTW_LAAG if "vat-low" in tags else BTW_HOOG
+        is_low_vat = any(t in tags for t in ["vat-low", "vat-liquid"])
+        btw = BTW_LAAG if is_low_vat else BTW_HOOG
         btw_label = "9%" if btw == BTW_LAAG else "21%"
 
         # Live details ophalen
