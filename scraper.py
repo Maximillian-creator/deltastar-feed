@@ -26,6 +26,23 @@ HEADERS = {
 }
 
 
+def fetch_with_retry(url, max_retries=3):
+    """Fetch een URL met retry-logica bij fouten."""
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=15)
+            response.raise_for_status()
+            return response
+        except Exception as e:
+            if attempt < max_retries - 1:
+                wait = (attempt + 1) * 30  # 30s, 60s, 90s
+                print(f"    ⚠️  Fout ({e}), opnieuw proberen in {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"    ❌ Mislukt na {max_retries} pogingen: {e}")
+                raise
+
+
 def fetch_all_products():
     products = []
     page = 1
@@ -33,8 +50,7 @@ def fetch_all_products():
 
     while True:
         url = f"{BASE_URL}/products.json?limit=250&page={page}"
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        response.raise_for_status()
+        response = fetch_with_retry(url)
         batch = response.json().get("products", [])
         if not batch:
             break
@@ -106,8 +122,7 @@ def fetch_live_details(handle):
     }
 
     try:
-        response = requests.get(url, headers=HEADERS, timeout=15)
-        response.raise_for_status()
+        response = fetch_with_retry(url, max_retries=2)
         html = response.text
 
         # Prijs uit og:price:amount
