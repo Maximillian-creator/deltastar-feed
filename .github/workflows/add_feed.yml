@@ -1,0 +1,38 @@
+name: Deltastar ADD-feed Updater
+
+# De ADD-feed bevat álle productinfo (barcode, alle afbeeldingen, ingrediënten,
+# dosering, allergenen) om met Stock Sync NIEUWE producten aan te maken.
+# Draait 1x per dag — nieuwe producten hoeven niet elk uur opnieuw.
+# (Prijs/voorraad van bestaande producten loopt via de update-feed: update_feed.yml.)
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Python instellen
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Dependencies installeren
+        run: pip install requests
+
+      - name: ADD-feed scraper draaien
+        run: python add_scraper.py
+
+      - name: XML committen en pushen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add deltastar_add_feed.xml
+          git diff --staged --quiet || git commit -m "🆕 ADD-feed bijgewerkt: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
