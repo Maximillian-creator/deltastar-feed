@@ -6,8 +6,8 @@ automatisch via GitHub Actions; je hoeft niets handmatig te doen.
 
 | Feed | Script | Output | Doel | Schema |
 |---|---|---|---|---|
-| **Update-feed** | `scraper.py` | `deltastar_feed.xml` | Prijs + voorraad van **bestaande** producten bijwerken | elke 6 uur |
-| **Add-feed** | `add_scraper.py` | `deltastar_add_feed.xml` | **Nieuwe** producten aanmaken met álle info | 1× per dag |
+| **Update-feed** | `scraper.py` | `deltastar_feed.xml` | Prijs + voorraad van **bestaande** producten bijwerken | 2× per dag (06:00 + 18:00 UTC) |
+| **Add-feed** | `add_scraper.py` | `deltastar_add_feed.xml` | **Nieuwe** producten aanmaken met álle info | 1× per week (ma 04:00 UTC) |
 
 ## Feed-URL's (Stock Sync)
 

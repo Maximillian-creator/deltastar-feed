@@ -2,12 +2,13 @@ name: Deltastar ADD-feed Updater
 
 # De ADD-feed bevat álle productinfo (barcode, alle afbeeldingen, ingrediënten,
 # dosering, allergenen) om met Stock Sync NIEUWE producten aan te maken.
-# Draait 1x per dag — nieuwe producten hoeven niet elk uur opnieuw.
+# Draait 1x per week — nieuwe producten verschijnen niet vaak.
 # (Prijs/voorraad van bestaande producten loopt via de update-feed: update_feed.yml.)
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    # Elke maandag om 04:00 UTC.
+    - cron: "0 4 * * 1"
   workflow_dispatch:
 
 jobs:
