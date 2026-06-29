@@ -44,13 +44,42 @@ available, variant_title, option1…3, weight (g), image`.
 
 ## Stock Sync mapping (Add products)
 
-Wijs in Stock Sync de XPath-paden toe, o.a.:
+Maak een **nieuwe** koppeling, type **"Add Products"** (niet de inventory/update-template).
+Bronformaat = XML. Stel het **record-pad** in op `/products/product` en groepeer
+varianten via **Handle**.
 
-- Product: `product/handle`, `product/title`, `product/body_html` (of `description`),
-  `product/vendor`, `product/tags`, `product/option1_name`
-- Afbeeldingen (repeating): `product/images/image/src`
-- Varianten (repeating): `product/variants/variant/sku`, `.../barcode`,
-  `.../price`, `.../compare_at_price`, `.../weight`, `.../option1`
+**Productvelden** (één per product):
+
+| Stock Sync veld | XPath |
+|---|---|
+| Handle | `handle` |
+| Title | `title` |
+| Body HTML / Description | `description` *(rijk: body + ingrediënten/dosering/allergenen)* — of `body_html` voor alleen het marketingblok |
+| Vendor | `vendor` *(of `brand`)* |
+| Type | `product_type` |
+| Tags | `tags` |
+| Published | `published` |
+| Option1/2/3 Name | `option1_name` / `option2_name` / `option3_name` |
+| Image Src *(meerdere)* | `images/image/src` |
+
+**Variantvelden** (herhalend, pad `variants/variant`):
+
+| Stock Sync veld | XPath |
+|---|---|
+| Variant SKU | `sku` |
+| Variant Barcode | `barcode` |
+| Variant Price | `price` *(al incl. BTW)* |
+| Variant Compare At Price | `compare_at_price` |
+| Variant Option1/2/3 | `option1` / `option2` / `option3` |
+| Variant Weight | `weight` *(eenheid: `weight_unit` = g)* |
+| Variant Image | `image` |
+| (Available) | `available` |
+
+**Voorkom botsingen met de update-feed:**
+- Zet de add-koppeling op **alleen nieuwe producten aanmaken** (geen updates van bestaande).
+- **Map geen voorraad/quantity** in de add-feed — dat beheert de update-feed, zodat één
+  bron de voorraad bepaalt. (Daarom zit in de add-feed alleen `available`, geen aantal.)
+- `price` is al incl. BTW (×1,09 of ×1,21) — stel in Stock Sync géén extra BTW-opslag in.
 
 ## Lokaal draaien / testen
 
