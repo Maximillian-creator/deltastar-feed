@@ -2,7 +2,9 @@ name: Deltastar Feed Updater
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # 1x per dag (06:00 UTC) — Stock Sync synct toch 1x/dag, dus elke 6 uur was overbodig.
+    # Loopt 2 uur na de add-feed (04:00 UTC) zodat ze de leverancier niet tegelijk raken.
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 jobs:
