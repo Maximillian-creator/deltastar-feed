@@ -176,6 +176,7 @@ def fetch_product_extras(handle):
     """
     url = f"{BASE_URL}{LOCALE}/products/{handle}"
     extras = {
+        "found": True,           # False = productpagina bestaat niet (404) -> overslaan
         "brand": None,
         "gtin_by_variant": {},   # {variant_id(str): gtin13}
         "ingredienten": None,
@@ -185,11 +186,30 @@ def fetch_product_extras(handle):
         "bewaren": None,
     }
 
-    try:
-        html = fetch_with_retry(url, max_retries=2).text
-    except Exception as e:
-        print(f"    ⚠️  Live pagina mislukt bij {handle}: {e}")
-        return extras
+    # Live pagina ophalen. Een 404 betekent een "spook"-product: het staat wel in
+    # products.json maar wordt niet verkocht op de storefront -> niet herhalen,
+    # markeren als niet-gevonden zodat build_xml het overslaat. Transiënte fouten
+    # (netwerk/5xx) één keer herproberen; daarna meenemen zonder extra's.
+    html = None
+    for attempt in range(2):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=15, verify=VERIFY_SSL)
+            if resp.status_code == 404:
+                extras["found"] = False
+                return extras
+            resp.raise_for_status()
+            html = resp.text
+            break
+        except Exception as e:
+            if getattr(getattr(e, "response", None), "status_code", None) == 404:
+                extras["found"] = False
+                return extras
+            if attempt == 0:
+                print(f"    ⚠️  Live pagina fout bij {handle} ({e}), 1x opnieuw...")
+                time.sleep(30)
+            else:
+                print(f"    ⚠️  Live pagina blijft falen bij {handle}: {e}")
+                return extras  # found blijft True: niet onterecht droppen bij netwerkfout
 
     # --- JSON-LD: brand + barcode per variant ---
     for block in re.findall(
@@ -254,6 +274,7 @@ def add_child(parent, tag, value):
 def build_xml(products):
     root = ET.Element("products")
     total = len(products)
+    skipped = []
 
     for i, product in enumerate(products, 1):
         handle = product.get("handle", "")
@@ -273,6 +294,14 @@ def build_xml(products):
 
         print(f"  [{i}/{total}] {title[:55]:<55} (BTW {btw_label})")
         extras = fetch_product_extras(handle)
+
+        # Spook-product: staat in products.json maar de live verkooppagina geeft
+        # 404 -> wordt niet verkocht op de storefront. Overslaan.
+        if not extras.get("found", True):
+            print(f"        ⏭️  Overgeslagen (geen verkooppagina / 404)")
+            skipped.append(title)
+            time.sleep(REQUEST_DELAY)
+            continue
 
         full_description = build_description_html(body_html, extras)
 
@@ -353,6 +382,11 @@ def build_xml(products):
             add_child(v_el, "image", v_img)
 
         time.sleep(REQUEST_DELAY)
+
+    if skipped:
+        print(f"\n⏭️  {len(skipped)} spook-product(en) overgeslagen (404 / niet verkocht):")
+        for t in skipped:
+            print(f"     - {t}")
 
     return root
 
