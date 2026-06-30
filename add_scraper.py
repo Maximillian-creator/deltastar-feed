@@ -132,16 +132,34 @@ def extract_accordion(html, heading):
     return clean_text(panel.group(1)) or None
 
 
+def _num_value(match):
+    """Haal het getal uit data-value; strip een nutteloze '.0' (150.0 -> 150)."""
+    v = match.group(1)
+    return v[:-2] if v.endswith(".0") else v
+
+
 def extract_ingredienten(html):
     """
-    Haal de ingrediëntentabel (met %RI) op. Deze kop bevat een svg + 'ë',
+    Haal de ingrediëntentabel (met dosering + %RI) op. Deze kop bevat een svg + 'ë',
     dus we pakken de tabel direct via zijn class.
+
+    Let op: de tabel gebruikt custom-elementen waarvan de échte waarde in
+    data-value staat (de tekstinhoud is leeg):
+      - <custom-italicized-text data-value="Vitamin C ...">  -> ingrediëntnaam
+      - <custom-formatted-number data-value="150.0">         -> hoeveelheid / %RI
+    Zonder die af te vangen verdwijnen alle getallen (was een bug: "mg % RI: % %").
+    De mobiele duplicaat-cel (<p class="show-in-mobile">) verwijderen we om
+    dubbele %RI-waarden te voorkomen.
     """
     m = re.search(r'<table[^>]*ingredients-table[^>]*>.*?</table>', html, re.DOTALL)
     if not m:
         return None
     table = m.group(0)
-    # custom-italicized-text bewaart de échte waarde in data-value
+    table = re.sub(r'<p class="show-in-mobile".*?</p>', " ", table, flags=re.DOTALL)
+    table = re.sub(
+        r'<custom-formatted-number data-value="([^"]*)"></custom-formatted-number>',
+        _num_value, table,
+    )
     table = re.sub(
         r'<custom-italicized-text data-value="([^"]*)"></custom-italicized-text>',
         r"\1", table,
@@ -286,11 +304,16 @@ def build_xml(products):
         add_child(item, "option3_name", opt_names[3])
 
         # --- Alle afbeeldingen ---
+        # Twee vormen: genest (overzicht) én één komma-gescheiden veld.
+        # Stock Sync pakt uit een geneste node maar één <src>; uit een komma-lijst
+        # importeert het álle afbeeldingen. Map in Stock Sync daarom 'image_links'.
         images_el = ET.SubElement(item, "images")
         for img in images:
             img_el = ET.SubElement(images_el, "image")
             add_child(img_el, "position", img.get("position", ""))
             add_child(img_el, "src", img.get("src", ""))
+        image_srcs = [img.get("src", "") for img in images if img.get("src")]
+        add_child(item, "image_links", ",".join(image_srcs))
         first_image = images[0].get("src", "") if images else ""
 
         # --- Varianten ---
