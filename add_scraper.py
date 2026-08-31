@@ -415,6 +415,8 @@ def main():
         print(f"🧪 TEST-modus: alleen '{test_handle}' ({len(products)} gevonden)\n")
 
     root = build_xml(products)
+    if not test_handle:
+        controleer_omvang(len(root.findall("product")), OUTPUT_FILE)
     save_xml(root, OUTPUT_FILE)
 
     elapsed = time.time() - start

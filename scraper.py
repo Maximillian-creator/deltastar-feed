@@ -277,12 +277,58 @@ def main():
 
     products = fetch_all_products()
     root = build_xml(products)
+    controleer_omvang(len(root.findall("product")), OUTPUT_FILE)
     save_xml(root, OUTPUT_FILE)
 
     elapsed = time.time() - start
     print(f"⏱️  Klaar in {elapsed:.0f} seconden")
     print(f"\n📋 Feed URL voor Stock Sync:")
     print(f"https://raw.githubusercontent.com/Maximillian-creator/deltastar-feed/main/deltastar_feed.xml")
+
+
+
+
+# --------------------------------------------------------------------------- #
+# De rem: nooit een halve feed wegschrijven
+# --------------------------------------------------------------------------- #
+def controleer_omvang(aantal, filepath, tag="<product>"):
+    """Stop de run bij een lege of gehalveerde feed.
+
+    Stock Sync zet producten die niet in de feed staan op *gearchiveerd*, stil en
+    zonder melding. Op 17-07-2026 om 19:47 schreef de Energetica-scraper 40 van
+    de 183 producten weg; de Stock Sync-run van 18-07 om 03:07 archiveerde er 137,
+    en die stonden 44 dagen uit Google. Geen enkele feed had toen een ondergrens.
+
+    Een halve uitkomst mag daarom niet worden weggeschreven: dan blijft de vorige
+    (goede) feed staan en wordt de GitHub Action rood. Krimpt de leverancier écht,
+    dan overrulet FORCE_FEED=1 dit bewust.
+
+    Tel op `<product>`, niet op `<sku>`: een leeg SKU-veld wordt `<sku/>` en telt
+    dan niet mee (Goldea had zo 44 producten bij 41 `<sku>`).
+    """
+    vorig = 0
+    if os.path.exists(filepath):
+        with open(filepath, encoding="utf-8") as f:
+            vorig = f.read().count(tag)
+    print(f"🧮 {aantal} producten nu, {vorig} in de vorige feed")
+
+    if os.environ.get("FORCE_FEED") == "1":
+        print("⚠️  FORCE_FEED=1 — controle overgeslagen.")
+        return
+    if aantal == 0:
+        raise SystemExit(
+            "❌ 0 producten gevonden — feed NIET overschreven. Meestal een "
+            "gewijzigde bron-URL of een leverancier die plat ligt."
+        )
+    if vorig and aantal < vorig * 0.5:
+        raise SystemExit(
+            f"❌ Slechts {aantal} van de {vorig} producten gevonden (<50%) — feed "
+            "NIET overschreven. Controleer de bron; forceren kan met FORCE_FEED=1."
+        )
+    if vorig and aantal < vorig * 0.9:
+        print(f"⚠️  {aantal} van {vorig} producten ({aantal / vorig:.0%}) — flinke "
+              "daling, feed wél geschreven. Controleer of dat klopt.")
+
 
 
 if __name__ == "__main__":
