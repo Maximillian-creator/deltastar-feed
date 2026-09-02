@@ -570,10 +570,10 @@
     <tags>vat-liquid</tags>
     <price>21.90</price>
     <compare_at_price>23.87</compare_at_price>
-    <available>false</available>
+    <available>true</available>
     <quantity>0</quantity>
     <handle>melatonin-liposomal-25-ml-spray</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7791d6f1-cbe0-4f58-54b7-08de37da5431_2F40013_Melatonin_1_1e9db5ed-acc2-4316-bb32-278957b11682.webp?v=1788083270</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7791d6f1-cbe0-4f58-54b7-08de37da5431_2F40013_Melatonin_1.webp?v=1788342201</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -813,7 +813,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>ashwagandha-xtra-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ff4464ffd-4b49-485c-4956-08da78a4a19b_2FEX26UK-1.webp?v=1788280386</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Ff4464ffd-4b49-485c-4956-08da78a4a19b_2FEX26UK-1_dee7fddf-7759-410b-a358-87cece199bc3.webp?v=1788335025</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -853,7 +853,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>b-complex-plus-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc9c8a833-9b1d-4ffa-4977-08da78a4a19b_2FBCP6UK-1_6b9ff04d-33b6-4b32-938b-7f529a46099f.webp?v=1788205506</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc9c8a833-9b1d-4ffa-4977-08da78a4a19b_2FBCP6UK-1_cfe90348-acd1-4b6e-af9d-d77e7a0ae132.webp?v=1788330768</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -1013,7 +1013,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>dim-ultra-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F5a0bd405-7357-4c5a-4b97-08da78a4a19b_2FDD6UK-1.webp?v=1788277981</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F5a0bd405-7357-4c5a-4b97-08da78a4a19b_2FDD6UK-1_705637ca-d510-4b07-b82e-171e3c8f9c4e.webp?v=1788325893</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -2255,7 +2255,7 @@
     <available>false</available>
     <quantity>0</quantity>
     <handle>resveratrol-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe83c93f1-daac-49f6-52ad-08da78a4a19b_2FRE6UK-1.webp?v=1788069901</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe83c93f1-daac-49f6-52ad-08da78a4a19b_2FRE6UK-1_fe683031-3f48-4c5a-845e-dc68377930cc.webp?v=1788339483</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -3155,7 +3155,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>vitamin-d3-complete-120-softgels-1</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F95d344b0-b5c5-433b-91f1-08de79e28568_2F76581_Vitamin_D3_Complete.webp?v=1788082273</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F95d344b0-b5c5-433b-91f1-08de79e28568_2F76581_Vitamin_D3_Complete_4f61599f-8576-4e16-8ab1-39c5a065e00f.webp?v=1788339226</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -5555,7 +5555,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>red-yeast-rice-sustained-release-600mg-30-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F56ab17c8-8e94-4f82-7203-08dc4a6854e9_2F7360_2.webp?v=1788285298</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F56ab17c8-8e94-4f82-7203-08dc4a6854e9_2F7360_2_ec868935-2ab2-4c53-82eb-def43a9dda21.webp?v=1788294648</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -6089,7 +6089,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>orange-juice-500-mg-vitamin-c-90-lozenges</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6f268afa-3e2e-427e-3266-08dc4a4ec0d2_2F2465_2_655ec80b-53e2-4fab-a4de-739815fb3b9a.webp?v=1788095031</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6f268afa-3e2e-427e-3266-08dc4a4ec0d2_2F2465_4_83ef95fd-72ff-4fcc-95e3-969766bd42be.webp?v=1788339255</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -6682,7 +6682,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>red-yeast-rice-600-mg-mini-tablets-120-mini-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F30756fe8-ba10-490f-71a4-08dc4a6854e9_2F7363_2_f5c1e751-3b51-490c-8738-2d61831a0aba.webp?v=1788083193</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F30756fe8-ba10-490f-71a4-08dc4a6854e9_2F7363_2.webp?v=1788294651</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -7359,7 +7359,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>protein-shake-strawberry-544g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3baf1578-128c-48c7-32a2-08dc4a4ec0d2_2F4573_2_05b2337f-2352-480e-aba2-d9dcfb357f0e.webp?v=1788075256</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3baf1578-128c-48c7-32a2-08dc4a4ec0d2_2F4573_4_21790c3a-0d8e-4c59-9211-9390ee650a32.webp?v=1788329606</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -7639,7 +7639,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>egg-yolk-lecithin-600-mg-180-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8b24a780-f419-425d-32c3-08dc4a4ec0d2_2F4173_4_18b901fa-7100-421e-a7ca-7794a0e207c3.webp?v=1788163205</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8b24a780-f419-425d-32c3-08dc4a4ec0d2_2F4173_4_a682d1d3-7751-4d97-8bf7-dc5fee0551a3.webp?v=1788330704</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -7652,14 +7652,14 @@
     <title>Ultra Hair® - 60 Tablets</title>
     <vendor>NaturesPlus</vendor>
     <product_type/>
-    <description>&lt;p&gt;Ultra Hair® bevat een vitamine B-complex inclusief hoog gedoseerde biotine samen met vitamine A en C en het aminozuur L-cysteïne.SR (Sustained Release) zorgt voor een betere opname door de vertraagde afgifte van de ingrediënten. Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
+    <description>Ultra Hair® contains a vitamin B complex including high-dose biotin together with vitamins A and C as well as the amino acid L-Cystein.SR (Sustained Release) ensures better absorption through a delayed release of the ingredients.</description>
     <tags>vat-low</tags>
     <price>29.92</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
     <handle>ultra-hair-60-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3f52aeb3-878e-489e-720d-08dc4a6854e9_2F4841_4_35cdc344-46e8-487a-abba-aff3130f4fe2.webp?v=1788260720</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F3f52aeb3-878e-489e-720d-08dc4a6854e9_2F4841_4_fa00aca8-83dd-4980-bec3-8b510b49c0c8.webp?v=1788322411</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -8439,7 +8439,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-malate-240-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F81e50603-cdde-4114-4f38-08da78a4a19b_2FDfH-MMC240-200293_f70c1a7c-f3c2-4e52-8c6c-aba42a0f4d0a.webp?v=1788060311</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F81e50603-cdde-4114-4f38-08da78a4a19b_2FDfH-MMC240-200293_c0b2cf18-0427-4406-a0d8-19049cce3c0f.webp?v=1788340296</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -8799,7 +8799,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>concentrace-trace-mineral-drops-118-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa0338de6-657b-4ffb-71b8-08dc4a6854e9_2FTMD02_-_ConcenTrace_4oz_plastic_62dcf04a-366b-4017-bdf5-b53d55b6fd4e.webp?v=1788291241</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa0338de6-657b-4ffb-71b8-08dc4a6854e9_2FTMD02_-_ConcenTrace_4oz_plastic_4572ecf9-a513-4e90-9d4a-9718d6baab1b.webp?v=1788340578</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -9199,7 +9199,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>thyroid-synergy-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9394459a-5643-4cd8-53c0-08da78a4a19b_2FTHS120_Thyroid-Synergy_250cc_medium__25281_2529_38e04c29-8665-43e3-b5f6-497d6257e010.webp?v=1788260866</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9394459a-5643-4cd8-53c0-08da78a4a19b_2FTHS120_Thyroid-Synergy_250cc_medium__25281_2529_5d281d48-5207-4ec3-9b83-8b949cb28e0b.webp?v=1788294709</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -9219,7 +9219,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-logic-plus-450-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc4c4c23c-38bd-4b7e-51e9-08dcecfae532_2Fpackshot-spiegelung-ol-plus-1-1_3af0246b-f250-4772-aa9c-44d60361bdb0.webp?v=1788183327</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc4c4c23c-38bd-4b7e-51e9-08dcecfae532_2Fpackshot-spiegelung-ol-plus-1-1.webp?v=1788338745</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -10419,7 +10419,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>allergzyme-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F877b4d36-0bcb-429c-b2c7-08ddce9d5c9e_2Fagz060_allergzyme_100cc_1_307f27c8-959c-4a1f-bfc1-b2ade9434f0f.webp?v=1788081248</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F877b4d36-0bcb-429c-b2c7-08ddce9d5c9e_2Fagz060_allergzyme_100cc_1.webp?v=1788340315</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -10899,7 +10899,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>selenium-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Febcb2e32-2794-4bb5-9028-08dafc88ac75_2FSelenium_20100_20mcg_9d36c072-5736-4ae2-9b3d-e30169547a07.webp?v=1788179596</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Febcb2e32-2794-4bb5-9028-08dafc88ac75_2FSelenium_20100_20mcg_7c418558-8165-4af6-9594-d1b5b584850e.webp?v=1788340309</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11239,7 +11239,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>neuromag-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F47f3adac-553b-4124-5062-08da78a4a19b_2FNEUMAG-1.webp?v=1788064705</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F47f3adac-553b-4124-5062-08da78a4a19b_2FNEUMAG-1_7a2fd060-5a8f-4e36-9e91-1b7e4a8436c1.webp?v=1788340316</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11279,7 +11279,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>dgl-synergy-90-chewables</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1364b166-5c9c-43ea-4bea-08db13e8a93a_2FDGL090_front.webp?v=1788076104</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1364b166-5c9c-43ea-4bea-08db13e8a93a_2FDGL090_front_7b47a65c-3057-4faa-b6d3-173cf4af1a57.webp?v=1788335532</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11299,7 +11299,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>glutathione-complex-90-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe04f4717-96b8-4b9a-901e-08dafc88ac75_2FGlutathione_20Complex_792dd997-c044-4110-bb61-d57dd0a4c392.webp?v=1788273082</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe04f4717-96b8-4b9a-901e-08dafc88ac75_2FGlutathione_20Complex_197d965d-08a0-452f-94b9-8dd230fdb996.webp?v=1788342802</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11339,7 +11339,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>q10-ubiquinol-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8ffa64c8-17a8-40ee-0716-08dc586815c6_2F182_4_07054e2e-0201-4302-9bbe-aa20548c3473.webp?v=1788291830</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8ffa64c8-17a8-40ee-0716-08dc586815c6_2F182_4_f96137d5-775c-4ea1-b361-37cd0e00e09d.webp?v=1788340295</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11659,7 +11659,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>complete-mineral-complex-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9fcba2fb-4f9e-47f9-4b2d-08da78a4a19b_2FCMI090-1_890d1aef-f690-4312-8ff7-7963d1ffcdde.webp?v=1788259902</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9fcba2fb-4f9e-47f9-4b2d-08da78a4a19b_2FCMI090-1_c60161cd-6e0d-41ee-bbe1-a359b6429baa.webp?v=1788341803</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11679,7 +11679,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-glycinate-complex-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F211438b9-5213-4ca9-4f16-08da78a4a19b_2Fmgc120_magnesium-glycinate-complex_300cc_ipsos-badge_1_8df86a2a-f9e3-4f79-937d-5981a566d4bb.webp?v=1788256653</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F211438b9-5213-4ca9-4f16-08da78a4a19b_2Fmgc120_magnesium-glycinate-complex_300cc_ipsos-badge_1_a39b1774-c924-47d6-bf6b-8776948379e9.webp?v=1788332603</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11739,7 +11739,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>tri-butyrin-supreme-60-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc1317b5b-edb0-4622-53d4-08da78a4a19b_2FTBS060-1_6e1af303-d34e-4a2e-9aa7-3d59f0120bea.webp?v=1788273983</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc1317b5b-edb0-4622-53d4-08da78a4a19b_2FTBS060-1_be3b1d30-50de-46c5-8fee-c9da751c3738.webp?v=1788341763</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11759,7 +11759,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>floramyces-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1c026f72-3b70-48a0-4c7c-08da78a4a19b_2FFLM060-1_ca40cec7-1ff8-4862-bd05-8c253c6f0e77.webp?v=1788108823</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1c026f72-3b70-48a0-4c7c-08da78a4a19b_2FFLM060-1_165b5dbf-4244-4300-9385-5e2c238f3786.webp?v=1788341688</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11819,7 +11819,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-vegan-80-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F45742ac6-c573-4add-50d3-08da78a4a19b_2FNS-2018303-1_25d8d59b-dc7d-4128-bc51-60393fddce17.webp?v=1788269522</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F45742ac6-c573-4add-50d3-08da78a4a19b_2FNS-2018303-1_0b4a137b-28f0-4d84-b362-646c5c86a78a.webp?v=1788342817</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11919,7 +11919,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2eebc8a7-b69f-4137-50c5-08da78a4a19b_2FNS-2018304-1_41a6760c-0294-472e-aae6-a99d58637713.webp?v=1788283328</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2eebc8a7-b69f-4137-50c5-08da78a4a19b_2FNS-2018304-1_a91a668e-e258-4b84-b590-93d28076097b.webp?v=1788334643</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -11959,7 +11959,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>gastrocleanse-100-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8c0d6b43-b428-488c-4ccb-08da78a4a19b_2FGastroCleanse.webp?v=1788283573</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8c0d6b43-b428-488c-4ccb-08da78a4a19b_2FGastroCleanse_02e7e218-5c44-4ed0-8c6f-9f1b0abb20e4.webp?v=1788342562</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12139,7 +12139,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>buffered-vitamin-c-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd9de4911-39eb-43e7-4a60-08da78a4a19b_2F70010_Buffered-VitaminC.webp?v=1788292698</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd9de4911-39eb-43e7-4a60-08da78a4a19b_2F70010_Buffered-VitaminC_682596dd-5087-48f1-ab75-c5dbe5fe6ce9.webp?v=1788339962</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12259,7 +12259,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>tmg-100-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F81590f87-85da-46fd-5386-08da78a4a19b_2FDS-73230-1_b96e247b-d6e7-4fc1-b0cc-850ffec531c8.webp?v=1788085164</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F81590f87-85da-46fd-5386-08da78a4a19b_2FDS-73230-1_0492fa3d-d2cb-4dfc-9f1e-b7858aae7464.webp?v=1788331167</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12359,7 +12359,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>l-lysine-100-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F11081ff9-6583-4529-2dab-08dadc5bae60_2FL-Lysine_593d7eb9-8da8-4a9e-825d-7daed6f11591.webp?v=1788169306</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F11081ff9-6583-4529-2dab-08dadc5bae60_2FL-Lysine_c56ed2d8-1320-4a64-b593-9ad505ef1805.webp?v=1788340307</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12379,7 +12379,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>adrenal-cortex-100-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9d64c04a-5762-446d-48c8-08da78a4a19b_2F70531_AdrenalCortex_8ab4d799-8d8f-4be8-b3dd-171c88ef44da.webp?v=1788274934</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9d64c04a-5762-446d-48c8-08da78a4a19b_2F70531_AdrenalCortex_38bba2df-68d5-4177-ab64-5e1b0d11739d.webp?v=1788335065</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12419,7 +12419,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>zinc-picolinate-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0c7d9033-a84d-4b82-5587-08da78a4a19b_2FDS-70300-1_ac7ddbc4-a508-42df-b78b-3c31c025b16e.webp?v=1788279241</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0c7d9033-a84d-4b82-5587-08da78a4a19b_2FDS-70300-1_044f7af0-37df-4d12-ae61-0dd8c016453a.webp?v=1788340298</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12579,7 +12579,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>b12-methylcobalamin-50-lozenges</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F642407ea-88c4-4c98-498d-08da78a4a19b_2FDS-76560-1_022e3202-7f7c-4d71-a2b6-2fb4e43f7a95.webp?v=1788266445</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F642407ea-88c4-4c98-498d-08da78a4a19b_2FDS-76560-1_12b6c0f1-ddfd-4388-b4fc-9c0d67d38058.webp?v=1788338004</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12619,7 +12619,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>pregnenolone-100-60-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F5ecba8a3-7bf1-4a11-3314-08dc4a4ec0d2_2F74820_Pregnenolone100_bf4e0117-e062-4efc-af51-739918a4ccc1.webp?v=1788169350</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F5ecba8a3-7bf1-4a11-3314-08dc4a4ec0d2_2F74820_Pregnenolone100_20604dc6-4bf1-4867-8af7-c920ab262b18.webp?v=1788333294</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12779,7 +12779,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>digestzymes-180-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa11ac155-84e7-4bc9-4bcf-08da78a4a19b_2Fdig180-digestzymes-180-300cc_1_af9d55b3-61be-42fc-9968-f9d05fc9a655.webp?v=1788280885</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa11ac155-84e7-4bc9-4bcf-08da78a4a19b_2Fdig180-digestzymes-180-300cc_1_cce98b8a-d65d-4014-b0b9-aab9d35e287c.webp?v=1788341686</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12799,7 +12799,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-biotic-10-30-x-5-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F39adce28-c201-438c-32a0-08dc4a4ec0d2_2FOMNi-BiOTiC_-10-30-Sachets-a-5g-Online-kaufen_d14f254b-a6ae-4de4-a04d-52ba9a641232.webp?v=1788285692</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F39adce28-c201-438c-32a0-08dc4a4ec0d2_2FOMNi-BiOTiC_-10-30-Sachets-a-5g-Online-kaufen_e4f5f69c-50ce-4327-9fbd-567ede2b47dc.webp?v=1788338762</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12859,7 +12859,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>gi-revive-225-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F41a98f12-f18b-4ca7-4cb6-08da78a4a19b_2Fgir225_gi-revive_16oz_redesign_ipsos-badge__25281_2529_c9faff37-da8c-4577-b28b-4e0ca5b8d75d.webp?v=1788280134</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F41a98f12-f18b-4ca7-4cb6-08da78a4a19b_2Fgir225_gi-revive_16oz_redesign_ipsos-badge__25281_2529_e23ee9bd-6ed4-43d7-9778-fe7cf587f1d7.webp?v=1788324310</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12959,7 +12959,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>lithium-synergy-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdde1eb2b-57c3-40ff-4bf6-08db13e8a93a_2FLSC120_front_8cde7325-f02e-40c4-940b-cdc57e851a25.webp?v=1788269667</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fdde1eb2b-57c3-40ff-4bf6-08db13e8a93a_2FLSC120_front_dbc8bc65-2464-44a8-bcb7-b56d1640c24b.webp?v=1788339972</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12979,7 +12979,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>ferrochel-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F70ffcfa7-b360-42c2-4c6a-08da78a4a19b_2FFEC120-1_3a682ba3-13c1-470b-bc46-ccf29aaf6b3e.webp?v=1788262209</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F70ffcfa7-b360-42c2-4c6a-08da78a4a19b_2FFEC120-1_4c5c598a-9c54-4a6e-9206-231e808996cc.webp?v=1788339173</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -12999,7 +12999,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>essential-biotic-l-rhamnosus-gg-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd6cf3928-9996-40ea-4c1e-08da78a4a19b_2FDS-78000-1_7ab23e0b-f752-4b2b-b716-5388b05f490c.webp?v=1788257684</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd6cf3928-9996-40ea-4c1e-08da78a4a19b_2FDS-78000-1_3be8a7b0-e9eb-47bf-b4a1-1f2a15c2b3a6.webp?v=1788336133</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13019,7 +13019,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>magnesium-citrate-180-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0833caae-aa3e-4e88-4f23-08da78a4a19b_2F86664_MagnesiumCitrate_c1753d89-dad2-432d-bcc8-8c8c108eb524.webp?v=1788285480</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0833caae-aa3e-4e88-4f23-08da78a4a19b_2F86664_MagnesiumCitrate_f1ba83b1-b3ee-4b81-a82c-126ec8607cdc.webp?v=1788339237</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13102,7 +13102,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>adk-evail-60-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2ccd4c82-57b4-43f6-489a-08da78a4a19b_2FADK060-1_298a95ed-f220-4e88-9abe-064f71f8ef15.webp?v=1788269521</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2ccd4c82-57b4-43f6-489a-08da78a4a19b_2FADK060-1_6d7b8998-be4e-4327-96d8-2841c6792b80.webp?v=1788336023</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13319,10 +13319,10 @@
     <tags>vat-low</tags>
     <price>52.97</price>
     <compare_at_price/>
-    <available>true</available>
+    <available>false</available>
     <quantity>0</quantity>
     <handle>gla-240-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F609c1122-a839-4847-6d88-08ddce9d5d2b_2Fgla-softgels_60_softgels-1_bf416ba5-fd43-4f37-bd1c-9cdf80b5f8d3.webp?v=1788080107</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F609c1122-a839-4847-6d88-08ddce9d5d2b_2Fgla-softgels_60_softgels-1_6b4f1582-b30a-4a6d-a8bd-a40007933e63.webp?v=1788330292</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13362,7 +13362,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>lv-gb-complex-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9cbea88e-7336-4d77-4e62-08da78a4a19b_2FLGC090-1_70de5fcb-e805-4a44-94b7-2010fce4a178.webp?v=1788060503</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F9cbea88e-7336-4d77-4e62-08da78a4a19b_2FLGC090-1_25499e61-824b-4d4d-a5e5-5498e2b22013.webp?v=1788335574</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13382,7 +13382,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-biotic-sr-9-28-x-3-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0f339f8e-ec97-4f19-3323-08dc4a4ec0d2_2FOMNi-BiOTiC_-SR-9-28-Sachets-a-3g-Online-kaufen_463aef59-191a-4d7e-b5a8-6acf39194a18.webp?v=1788285702</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0f339f8e-ec97-4f19-3323-08dc4a4ec0d2_2FOMNi-BiOTiC_-SR-9-28-Sachets-a-3g-Online-kaufen_c0b1b7c6-975c-43ec-8d04-ebc39faa3c5e.webp?v=1788338760</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13422,7 +13422,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-biotic-6-60-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2ecc2b81-5138-4894-3256-08dc4a4ec0d2_2FOMNi-BiOTiC_-6-60g-Online-kaufen_c9c6e3d6-b378-4915-8a07-d88bbccb962e.webp?v=1788278196</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F2ecc2b81-5138-4894-3256-08dc4a4ec0d2_2FOMNi-BiOTiC_-6-60g-Online-kaufen_bb57d82e-1e01-4a5a-979f-465a2bfcfbac.webp?v=1788338764</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13562,7 +13562,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>liposomal-vitamin-c-120-ml-liposomal</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F471d25f7-01a7-4b99-4eac-08da78a4a19b_2Flipovitc_e2306466-154e-4ccb-ab27-e8c6bb7f6e8e.webp?v=1788260870</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F471d25f7-01a7-4b99-4eac-08da78a4a19b_2Flipovitc.webp?v=1788340313</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13642,7 +13642,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-biotic-hetox-30-x-6-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbb4eeba7-908f-495e-3315-08dc4a4ec0d2_2Fomni-biotic-hetox-30-sachets-a-6g-online-kaufen_e918fd50-e7f5-4590-8865-5a8013b732cf.webp?v=1788270553</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbb4eeba7-908f-495e-3315-08dc4a4ec0d2_2Fomni-biotic-hetox-30-sachets-a-6g-online-kaufen_b76a2fa2-8536-4990-beec-244f5ff173fe.webp?v=1788341904</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13702,7 +13702,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>dim-evail-120-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd5080016-3e8e-4493-4beb-08db13e8a93a_2Fdim120-dim-evail-120-200cc_dca49cea-5da1-404d-9a34-a6aeb11a7307.webp?v=1788259623</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd5080016-3e8e-4493-4beb-08db13e8a93a_2Fdim120-dim-evail-120-200cc_c25c2052-4057-4415-bc36-d03413148e54.webp?v=1788319289</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13762,7 +13762,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>betaine-hcl-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa064f09a-c4f8-4642-49d6-08da78a4a19b_2FBHC120-1_f7747ea9-6ffd-4680-92ae-4fd884db73aa.webp?v=1788190786</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa064f09a-c4f8-4642-49d6-08da78a4a19b_2FBHC120-1_a788e768-969e-4065-bcc1-866166a36d95.webp?v=1788340320</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13802,7 +13802,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>probiotic-synergy-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F69cab92c-1670-4492-5229-08da78a4a19b_2FPRO060_df4b7f6a-9641-4da6-8718-b89326330716.webp?v=1788205512</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F69cab92c-1670-4492-5229-08da78a4a19b_2FPRO060.webp?v=1788333054</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -13822,7 +13822,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>pancreatic-enzyme-complex-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc2dcf70a-ac2f-4558-b0d2-08dbeb481589_2Fpzm090_pancreatic-enzymes-plus_200cc_ipsos-badge_d73fe691-c634-44f9-b133-a5e7440591da.webp?v=1788074811</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fc2dcf70a-ac2f-4558-b0d2-08dbeb481589_2Fpzm090_pancreatic-enzymes-plus_200cc_ipsos-badge_275a03a7-adf6-4cf0-a9bd-9573fd62e3c0.webp?v=1788319860</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14002,7 +14002,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>animal-parade-multivitamin-assorted-sugar-free-90-chewables</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fee4f71ff-4a94-4052-34da-08db6c18acca_2F29918_front_5a67b371-b038-4cbd-8987-8f9c9540bf06.webp?v=1788075144</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fee4f71ff-4a94-4052-34da-08db6c18acca_2F29918_343bc585-f693-4fef-a9d0-eafb9984f1e4.webp?v=1788331845</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14082,7 +14082,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>fibrecontrol-450-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f385425-1799-498b-901c-08dafc88ac75_2F332-front_6709e15c-30ef-4f33-a1a7-6f0fbd5fe700.webp?v=1788259904</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f385425-1799-498b-901c-08dafc88ac75_2F332-front_58c63b00-44f6-4626-bcf1-c69b561bd992.webp?v=1788332153</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14102,7 +14102,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>l-carnitine-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0e0b3e57-9b93-4611-9021-08dafc88ac75_2FDS-151_front_77291406-e90a-4324-ad97-fa2e76ee050b.webp?v=1788176786</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F0e0b3e57-9b93-4611-9021-08dafc88ac75_2FDS-151_front_5c406672-c7e5-4d78-b693-fe7e012bdddf.webp?v=1788340292</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14182,7 +14182,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>twice-daily-multi-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fae756ec2-029b-4010-53e5-08da78a4a19b_2Ftwice-daily-multi-120-tdm120-250cc_7433ce33-83bb-457f-88c3-2e8281bace8d.webp?v=1788263400</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fae756ec2-029b-4010-53e5-08da78a4a19b_2Ftwice-daily-multi-120-tdm120-250cc_c4ae2dc5-5a35-4223-80d8-764b29964d89.webp?v=1788342163</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14202,7 +14202,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>l-glutamine-300-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F463bf6fc-6d26-41ea-9022-08dafc88ac75_2FL-Glutamin_9267fbab-ff65-448d-8e70-99d5bc8e5994.webp?v=1788256607</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F463bf6fc-6d26-41ea-9022-08dafc88ac75_2FL-Glutamin_e959c9a0-219e-4b36-9389-47165aa79290.webp?v=1788330756</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14285,7 +14285,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>vitamin-d3-liquid-3-000-iu-30-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F109afaf1-d9cb-429e-7d4e-08dc4ab14d06_2F265_52989968-3ea3-4abf-a1e2-e243606f08cd.webp?v=1788210229</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F109afaf1-d9cb-429e-7d4e-08dc4ab14d06_2F265_1b1c075e-2577-46b7-ac80-fbd755bd11d8.webp?v=1788332843</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14385,7 +14385,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>homocysteine-supreme-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F674a6f0d-a3c2-462a-a8d0-08dc974308d8_2Fhomocysteine-sup-60-hys060-150cc_1_4ceda113-b902-4976-b800-f3f37ab57e8e.webp?v=1788280358</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F674a6f0d-a3c2-462a-a8d0-08dc974308d8_2Fhomocysteine-sup-60-hys060-150cc_1_0df988ba-be10-4a0c-9f18-629cd7473ded.webp?v=1788336021</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14465,7 +14465,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>glycine-400-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F666d45c5-ee46-41ae-23ae-08dadc5a7c55_2FDS-130_108acf9f-6592-4315-95e1-7171cf543296.webp?v=1788289720</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F666d45c5-ee46-41ae-23ae-08dadc5a7c55_2FDS-130_2f13ce78-f75d-43c2-9042-53862b0552d9.webp?v=1788335244</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14605,7 +14605,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-vegan-100-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f234b4e-1d66-4daf-50d2-08da78a4a19b_2FNS-2018301-1_5317812d-2878-4a23-be33-eb834dae86a8.webp?v=1788286039</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F1f234b4e-1d66-4daf-50d2-08da78a4a19b_2FNS-2018301-1_2e1b66fd-0194-42ac-8e57-c1671fe4dd16.webp?v=1788337284</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14665,7 +14665,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>digestzymes-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F5a099b5a-993e-4b9a-4bd0-08da78a4a19b_2Fdig090-digestzymes-90-200cc_d37483f5-47b3-4907-b2ec-94a981639182.webp?v=1788272431</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F5a099b5a-993e-4b9a-4bd0-08da78a4a19b_2Fdig090-digestzymes-90-200cc_2a153877-5bdd-49c5-8e96-07ef347c19b0.webp?v=1788295069</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -14765,7 +14765,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>super-b-50-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F4c3d81c0-170d-42b2-7d97-08dc4ab14d06_2F1320-01_5000x_jpg_7ae01aca-7692-4b01-b511-5c7d03ace512.webp?v=1788256731</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2F4c3d81c0-170d-42b2-7d97-08dc4ab14d06_2F1320-01_5000x_jpg_f4e9f617-874a-49db-9048-4125775fe6dd.webp?v=1788329495</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15085,7 +15085,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>super-epa-200-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F80471291-9e7b-4bb8-535d-08da78a4a19b_2F73870-3.webp?v=1788285483</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F80471291-9e7b-4bb8-535d-08da78a4a19b_2F73870-3_6dbde1d7-162b-4126-9d51-c5e176afa71a.webp?v=1788329450</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15162,10 +15162,10 @@
     <tags>vat-low</tags>
     <price>94.75</price>
     <compare_at_price/>
-    <available>true</available>
+    <available>false</available>
     <quantity>0</quantity>
     <handle>source-of-life-multivitamin-360-mini-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2Fef76d2e4-8726-4945-71e6-08dc4a6854e9_2F30584-01_5000x_jpg_ef9a7a73-5560-4ff4-92b3-e299349d159f.webp?v=1788256688</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium_blob_core_windows_net_2Fproduction_2Fproduct-images_2Fef76d2e4-8726-4945-71e6-08dc4a6854e9_2F30584-01_5000x_jpg_582b09c8-6c1c-4775-bf77-ddf9e660eb66.webp?v=1788300051</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15245,7 +15245,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>emulsi-d3-synergy-59-ml-liquid</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F689f213a-df61-436b-4c01-08da78a4a19b_2FEMDK2Z-1_6c2759d7-3db4-4fee-b71a-f985e74195ef.webp?v=1788174725</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F689f213a-df61-436b-4c01-08da78a4a19b_2FDfH-EMDK2Z-200328_43c9289f-adbd-44cb-ae14-95bf342c1cce.webp?v=1788333302</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15365,7 +15365,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>protein-shake-vanilla-960-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd5fc1b18-d154-47fb-7d94-08dc4ab14d06_2F4581_4_a65c71d1-d7ef-4d89-9a70-b81323fd2061.webp?v=1788080982</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fd5fc1b18-d154-47fb-7d94-08dc4ab14d06_2F4581_4_eeae3c8d-6c76-4d65-92b0-7097d7edc7d6.webp?v=1788329377</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15611,10 +15611,10 @@
     <tags>vat-low</tags>
     <price>109.59</price>
     <compare_at_price/>
-    <available>true</available>
+    <available>false</available>
     <quantity>0</quantity>
     <handle>purepaleo-chocolate-810-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb6de1ba3-87e0-4af6-524e-08da78a4a19b_2FPPPCHC-1_986b8535-a13e-4d92-9d3a-b5e270c36850.webp?v=1788273185</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb6de1ba3-87e0-4af6-524e-08da78a4a19b_2FPPPCHC-1_54ef8ef6-6044-435d-80ec-2df4106e67eb.webp?v=1788335576</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -15934,7 +15934,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omegavail-tg1000-60-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F74b6860e-e33b-45d3-4bfc-08db13e8a93a_2FOV1000_front_8bc751b7-67d0-44a1-a3c3-4f54258a9558.webp?v=1788074229</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F74b6860e-e33b-45d3-4bfc-08db13e8a93a_2FOV1000_front_5ed20d5a-b68e-4ff3-8046-91ea99f1cbb7.webp?v=1788340318</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -16394,7 +16394,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>micro-liposomal-c-120-ml-liposomal</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F12591e61-e1d0-4f0e-4fb9-08da78a4a19b_2F76770_MicroLiposomalC__49293_17665d97-9eb7-46fe-95a6-549011473c0b.webp?v=1788067812</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F12591e61-e1d0-4f0e-4fb9-08da78a4a19b_2F76770_MicroLiposomalC__49293_223eafe1-0a02-437e-9896-4bd3ab7c63bd.webp?v=1788340322</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -16434,7 +16434,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omni-biotic-woman-28-x-2-g-powder</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa160d872-8ccf-4e82-331d-08dc4a4ec0d2_2Fomni-biotic-woman-28-2g_77aa8027-916a-4b67-8541-c9ef8fbc595f.webp?v=1788190784</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fa160d872-8ccf-4e82-331d-08dc4a4ec0d2_2Fomni-biotic-woman-28-2g_2bb82d29-7002-4201-8b30-a791b9d4d168.webp?v=1788339992</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -17209,7 +17209,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>primal-multi-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8e8a6f02-d40a-4839-4c01-08db13e8a93a_2Fprimalmulti.webp?v=1788173973</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F8e8a6f02-d40a-4839-4c01-08db13e8a93a_2Fprimalmulti_71d90f7d-9820-4151-b57d-6d01599f8614.webp?v=1788329347</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -17442,14 +17442,14 @@
     <title>Multi-Vi-Min® without Copper &amp; Iron - 150 capsules</title>
     <vendor>Allergy Research Group</vendor>
     <product_type/>
-    <description>&lt;p&gt;Multivitamine formule zonder koper, ijzer en jodium. Daardoor is deze formule bijzonder goed geschikt als basisverzorging als basisverzorging bij verschillende auto-immuunziektes zoals bijvoorbeeld Hashimoto&amp;#39;s. Opmerking: Voedingssupplementen zijn geen vervanging van een gevarieerde voeding.&lt;/p&gt;</description>
+    <description>Similar formula to Multi-Vi-Min®, excluding copper and iron. Now with riboflavin-5-phosphate, pyridoxal-5-phosphate, 5-methyltetrahydrofolate, methylcobalamin, vitamin K, and iodine.Quatrefolic® is a registered trademark of Gnosis S.p.A., U.S. Patent No. 7,947,662.</description>
     <tags>vat-low</tags>
     <price>42.50</price>
     <compare_at_price/>
     <available>false</available>
     <quantity>0</quantity>
     <handle>multi-vi-min-without-copper-iron-150-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F73e86933-10f1-4988-5002-08da78a4a19b_2FDS-70200-1_dd3c07ce-58d3-403f-a21d-601c28c3556a.webp?v=1788251024</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F73e86933-10f1-4988-5002-08da78a4a19b_2F70200.webp?v=1788322390</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -17909,7 +17909,7 @@
     <available>false</available>
     <quantity>0</quantity>
     <handle>hibiotin-90-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fcee0bdb5-ce59-4816-4d5c-08da78a4a19b_2FDS-77090-1_3bcb1a6f-b25b-4af9-8863-9ab21262d279.webp?v=1788185699</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fcee0bdb5-ce59-4816-4d5c-08da78a4a19b_2FDS-77090-1.webp?v=1788339826</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -18029,7 +18029,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>charcoal-plus-binder-60-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6473f56a-938e-4e71-6d84-08ddce9d5d2b_2Fcpb060-charcoal-plus-binder-150cc_1.webp?v=1788175216</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F6473f56a-938e-4e71-6d84-08ddce9d5d2b_2Fcpb060-charcoal-plus-binder-150cc_1_4064b40b-86a1-4cb3-b5fa-2ed7293fc6fe.webp?v=1788341780</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -18209,7 +18209,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>brainceutix-pqq-60-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F03c86191-8fc9-43b9-0252-08dc47f3737d_2FNP_PQQ_fd99b400-f04d-4c9d-bbd8-007ea285b704.webp?v=1788187141</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F03c86191-8fc9-43b9-0252-08dc47f3737d_2FNP_PQQ_42e69ec2-46e3-42ec-9eda-00ae3789a685.webp?v=1788342750</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -18989,7 +18989,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>curcum-evail-400-60-softgels</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F63838487-6c53-4e84-4b59-08da78a4a19b_2Fce4060-curcum-evail-400-60ct-150cc.webp?v=1788249232</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F63838487-6c53-4e84-4b59-08da78a4a19b_2Fce4060-curcum-evail-400-60ct-150cc_763e32fc-f6cb-459c-b8aa-b68509b8aaa5.webp?v=1788340311</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -19129,7 +19129,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>immunobiotic-pro-200-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F86b71563-00bf-4f85-52c2-08da78a4a19b_2F75670_ImmunoBiotic-Pro__69436_612927fe-e1a2-4205-b2eb-4e59c261d3f1.webp?v=1788067699</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F86b71563-00bf-4f85-52c2-08da78a4a19b_2F75670.webp?v=1788342181</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -19186,10 +19186,10 @@
     <tags>vat-low</tags>
     <price>41.47</price>
     <compare_at_price/>
-    <available>true</available>
+    <available>false</available>
     <quantity>0</quantity>
     <handle>l-lysine-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb2fb731e-a882-46d1-b2d0-08ddce9d5c9e_2Fl-lysine-lys120-300cc_1.webp?v=1788081088</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fb2fb731e-a882-46d1-b2d0-08ddce9d5c9e_2Fl-lysine-lys120-300cc_1_694dfb1f-83ac-42e6-894d-b743bda8b727.webp?v=1788324484</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -19309,7 +19309,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>histagest-dao-60-tablets</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7918572f-c842-4ce3-3500-08db6c18acca_2FHGD060-200689_front_6d441115-9cc5-4a2c-bdb3-4f188f3aa798.webp?v=1788284105</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F7918572f-c842-4ce3-3500-08db6c18acca_2FHGD060-200689_front_91c5a598-e41b-40b8-a66f-cbf90093e35b.webp?v=1788333062</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20169,7 +20169,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>omega-3-kids-jelly-120-chewables</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbdb8bb3f-ca75-41c1-b29d-08db9975e196_2FNorsan_OMEGA-3_KIDS_JELLY_120_gummies_e89e12ff-7d72-4e66-bcd5-79cac5c7ed5e.webp?v=1788074876</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fbdb8bb3f-ca75-41c1-b29d-08db9975e196_2FNorsan_OMEGA-3_KIDS_JELLY_120_gummies_f439be28-25cf-47db-8425-236aeab736d5.webp?v=1788325983</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20229,7 +20229,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>monolaurin-avail-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe5771e3f-d56e-4a1a-4fe2-08da78a4a19b_2FMLA120-1_91a10746-f039-46b5-a616-8a7a2b4147a4.webp?v=1788068212</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2Fe5771e3f-d56e-4a1a-4fe2-08da78a4a19b_2FMLA120_61c3cc6b-856d-40d6-9d72-5b12d7173db5.webp?v=1788335443</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
@@ -20429,7 +20429,7 @@
     <available>true</available>
     <quantity>0</quantity>
     <handle>histaeze-120-capsules</handle>
-    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F46b33a25-efb8-4721-4bf0-08db13e8a93a_2FHIS120_front_6eb5f10e-6ed0-4d8b-a5f6-272508770815.webp?v=1788256602</image>
+    <image>https://cdn.shopify.com/s/files/1/1001/4156/4243/files/https_3A_2F_2Fprodwelldium.blob.core.windows.net_2Fproduction_2Fproduct-images_2F46b33a25-efb8-4721-4bf0-08db13e8a93a_2FHIS120_front_b41572d8-4b20-45bd-8077-71e1868fff74.webp?v=1788327604</image>
     <variant_title>Default</variant_title>
     <option1>Default</option1>
     <option2/>
