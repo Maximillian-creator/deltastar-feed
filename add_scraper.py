@@ -35,6 +35,10 @@ import time
 import re
 import os
 
+# De rem tegen halve feeds woont in de update-scraper; hier alleen lenen.
+# Zonder deze import viel de wekelijkse ADD-run om met een NameError (07-09-2026).
+from scraper import controleer_omvang
+
 BASE_URL = "https://deltastar.nl"
 LOCALE = "/nl"
 OUTPUT_FILE = "deltastar_add_feed.xml"
