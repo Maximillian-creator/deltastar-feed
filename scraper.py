@@ -278,6 +278,8 @@ def main():
     products = fetch_all_products()
     root = build_xml(products)
     controleer_omvang(len(root.findall("product")), OUTPUT_FILE)
+    import prijsrem
+    print(prijsrem.verslag(prijsrem.pas_toe(root, OUTPUT_FILE)))
     save_xml(root, OUTPUT_FILE)
 
     elapsed = time.time() - start
