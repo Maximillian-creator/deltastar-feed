@@ -86,3 +86,10 @@ def test_heel_merk_eruit():
     root, over = plat.maak_plat(ET.fromstring(GENEST), {"merk:Biocidin Botanicals": "eigen feed"})
     assert [r.findtext("sku") for r in root.findall("product")] == ["NP-1", "TM-1", "TMD01"]
     assert over == ["BI-1 (eigen feed)"]
+
+
+def test_prijs_nul_gaat_er_niet_in():
+    genest = GENEST.replace("<price>72.30</price>", "<price>0.00</price>")
+    root, over = plat.maak_plat(ET.fromstring(genest), {})
+    assert "BI-1" not in [r.findtext("sku") for r in root.findall("product")]
+    assert over == ["BI-1 (prijs 0.00)"]

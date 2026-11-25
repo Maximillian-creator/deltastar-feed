@@ -51,6 +51,13 @@ def lees_niet(pad: str = NIET) -> dict[str, str]:
     return niet
 
 
+def _prijs(tekst: str) -> float:
+    try:
+        return float(tekst)
+    except ValueError:
+        return 0.0
+
+
 def _tekst(el: ET.Element, tag: str) -> str:
     return (el.findtext(tag) or "").strip()
 
@@ -85,6 +92,10 @@ def maak_plat(genest: ET.Element, niet: dict[str, str]) -> tuple[ET.Element, lis
             sleutel = next((k for k in (rij["sku"].upper(), "merk:" + rij["vendor"]) if k in niet), None)
             if sleutel:
                 overgeslagen.append(f"{rij['sku']} ({niet[sleutel] or 'niet_toevoegen.txt'})")
+                continue
+            if not _prijs(rij["price"]):
+                # 25-11: CuraZyme Ultra stond op 0.00 (geen foto, niet leverbaar); zou voor €0 verschijnen
+                overgeslagen.append(f"{rij['sku']} (prijs {rij['price'] or 'leeg'})")
                 continue
             item = ET.SubElement(root, "product")
             for veld in VELDEN:
