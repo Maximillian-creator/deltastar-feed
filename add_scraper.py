@@ -40,6 +40,7 @@ import os
 from scraper import controleer_omvang
 
 from merken import met_merktag, winkelmerk
+from plat import lees_niet, maak_plat
 
 BASE_URL = "https://deltastar.nl"
 LOCALE = "/nl"
@@ -423,6 +424,10 @@ def main():
         print(f"🧪 TEST-modus: alleen '{test_handle}' ({len(products)} gevonden)\n")
 
     root = build_xml(products)
+    # 25-11-2026: plat (één <product> per variant) en zonder niet_toevoegen.txt, zie plat.py
+    root, overgeslagen = maak_plat(root, lees_niet())
+    if overgeslagen:
+        print(f"⏭️  Bewust niet ({len(overgeslagen)}): " + "; ".join(overgeslagen))
     if not test_handle:
         controleer_omvang(len(root.findall("product")), OUTPUT_FILE)
     save_xml(root, OUTPUT_FILE)

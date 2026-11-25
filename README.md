@@ -9,20 +9,18 @@ automatisch via GitHub Actions; je hoeft niets handmatig te doen.
 | **Update-feed** | `scraper.py` | `deltastar_feed.xml` | Prijs + voorraad van **bestaande** producten bijwerken | 2× per dag (06:00 + 18:00 UTC) |
 | **Add-feed** | `add_scraper.py` | `deltastar_add_feed.xml` | **Nieuwe** producten aanmaken met álle info | 1× per week (ma 04:00 UTC) |
 
-## Selectie-feed: nieuwe merken (25-11-2026)
+## Add-feed sinds 25-11-2026: plat
 
-`selectie.py` maakt uit de add-feed `deltastar_add_selectie.xml`: alleen de merken uit
-`selectie.txt` (nu Trace Minerals, Natures Plus, Metabolic Maintenance, MethylPro, AllergoSan),
-**plat** (één `<product>` per variant, groeperen op `handle`), merknaam in winkelspelling
-(`merken.py`: NaturesPlus → Natures Plus, Doctor Wilson's → Dr. Wilson's, Designs for Health →
-Designs For Health, Vuzïmo → Vitalized) en de merknaam ook als tag. Een merk erbij = één regel
-`merk: X` in `selectie.txt`; een product eruit = `-SKU`. Draait mee in de add-workflow (maandag).
+De add-feed is **plat**: één `<product>` per variant, groeperen op `handle` (zoals alle andere
+add-feeds; Stock Sync sloeg bij Kala een genest blok met één variant stil over). Verder
+(`plat.py`, `merken.py`):
+- merknaam in winkelspelling: NaturesPlus → Natures Plus, Doctor Wilson's → Dr. Wilson's,
+  Designs for Health → Designs For Health, Vuzïmo → Vitalized; de merknaam staat ook als tag
+  (merkpagina's als natures-plus lopen op die tag);
+- zonder wat in `niet_toevoegen.txt` staat: SKU's die al in de winkel staan zonder (die) SKU,
+  THT-partijen, en merk Vitalized (komt uit de eigen Vitalized-feed).
 
-```
-Selectie: https://raw.githubusercontent.com/Maximillian-creator/deltastar-feed/main/deltastar_add_selectie.xml
-```
-
-Stock Sync, "Add products": Parent node `products.product[*]`, Variant node leeg, identifier
+Stock Sync, "Add products": Parent node `products.product[*]`, **Variant node leeg**, identifier
 `sku`, Variantgroep `handle` + Variant optie 1 `option1`, afbeeldingen `image_links`
 (komma-gescheiden). Alleen nieuwe producten aanmaken; bestaande overslaan.
 
@@ -62,10 +60,11 @@ available, variant_title, option1…3, weight (g), image`.
 ## Stock Sync mapping (Add products)
 
 Maak een **nieuwe** koppeling, type **"Add Products"** (niet de inventory/update-template).
-Bronformaat = XML. Stel het **record-pad** in op `/products/product` en groepeer
-varianten via **Handle**.
+Bronformaat = XML. Parent node `products.product[*]`, **Variant node leeg** (de feed is plat
+sinds 25-11-2026), identifier `sku`. Onder "Combine rows into one product": Variantgroep
+**`handle`** en Variant optie 1 **`option1`**.
 
-**Productvelden** (één per product):
+**Productvelden** (staan in elke regel; Stock Sync neemt ze per handle één keer):
 
 | Stock Sync veld | XPath |
 |---|---|
@@ -77,9 +76,9 @@ varianten via **Handle**.
 | Tags | `tags` |
 | Published | `published` |
 | Option1/2/3 Name | `option1_name` / `option2_name` / `option3_name` |
-| Image Src *(meerdere)* | `images/image/src` |
+| Image Src *(meerdere)* | `image_links` *(komma-gescheiden)* |
 
-**Variantvelden** (herhalend, pad `variants/variant`):
+**Variantvelden** (één regel = één variant):
 
 | Stock Sync veld | XPath |
 |---|---|

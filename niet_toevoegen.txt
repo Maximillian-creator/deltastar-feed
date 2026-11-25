@@ -1,0 +1,12 @@
+# Deltastar ADD-feed: SKU's die er bewust NIET in staan (plat.py). Eén SKU per regel, # = reden.
+# Stock Sync "Add products" herkent bestaande producten op SKU. Deze staan al in de winkel
+# zonder (die) SKU, of zijn tijdelijke partijen; anders maakt een import ze dubbel aan.
+
+TMD01        # ConcenTrace Trace Mineral Drops 237 mL = winkel TM-914 (variant 237)
+NP-3774      # Ultra Juice Green 90 capsules = winkel-concept "Ultra Juice Green®" zonder SKU
+NS-329870    # Norsan Omega-3 KIDS Jelly 45 = winkel-concept "NORSAN Omega-3 KIDS Jelly" zonder SKU
+NS-329931    # Norsan Omega-3 KIDS Jelly 120 = idem
+VP-330-SALE  # FibreControl 200 g THT 04/27: tijdelijke partij
+VP-332-SALE  # FibreControl 450 g THT 04/27: tijdelijke partij
+
+merk: Vitalized   # komt uit de eigen Vitalized-feed (SKU 40105, Deltastar V-40105, zelfde barcode)

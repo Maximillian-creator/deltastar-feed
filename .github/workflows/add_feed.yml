@@ -27,21 +27,20 @@ jobs:
       - name: Dependencies installeren
         run: pip install requests
 
-      - name: ADD-feed scraper draaien
-        run: python add_scraper.py
-
-      # 25-11-2026: alleen de merken uit selectie.txt, plat voor Stock Sync
-      - name: SELECTIE-feed bouwen
+      # 25-11-2026: de feed is plat + winkelspelling merken + niet_toevoegen.txt (plat.py)
+      - name: Tests platte feed
         run: |
           pip install pytest
-          python -m pytest -q test_selectie.py
-          python selectie.py
+          python -m pytest -q test_plat.py
+
+      - name: ADD-feed scraper draaien
+        run: python add_scraper.py
 
       - name: XML committen en pushen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add deltastar_add_feed.xml deltastar_add_selectie.xml
+          git add deltastar_add_feed.xml
           git diff --staged --quiet || git commit -m "🆕 ADD-feed bijgewerkt: $(date -u '+%Y-%m-%d %H:%M UTC')"
           # Eventuele nieuwe commits op de repo eerst integreren, dan pas pushen
           # (voorkomt 'rejected - fetch first' als er ondertussen is gepusht).
