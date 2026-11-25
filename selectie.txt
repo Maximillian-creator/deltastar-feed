@@ -1,0 +1,15 @@
+# Deltastar SELECTIE-feed (selectie.py) - welke merken Max wil toevoegen.
+# 'merk: X'  = alle producten van dat merk (Deltastar- of winkelspelling, allebei goed)
+# '-SKU'     = deze variant niet
+# Stock Sync "Add products" maakt alleen aan wat nog niet in de winkel staat.
+
+# Max, 25-11-2026: "Trace Minerals is belangrijk. Nature's Plus is belangrijk." + MethylPro alle 17
+merk: Trace Minerals
+merk: Natures Plus
+merk: Metabolic Maintenance
+merk: MethylPro
+merk: AllergoSan
+
+# Staan al in de winkel, maar zonder SKU of barcode: Stock Sync zou ze dubbel aanmaken
+-TMD01      # ConcenTrace Trace Mineral Drops 237 mL = winkel TM-914 (variant 237)
+-NP-3774    # Ultra Juice Green 90 capsules = winkel-concept "Ultra Juice Green®" zonder SKU

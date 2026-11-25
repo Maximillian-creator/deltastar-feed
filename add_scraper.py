@@ -39,6 +39,8 @@ import os
 # Zonder deze import viel de wekelijkse ADD-run om met een NameError (07-09-2026).
 from scraper import controleer_omvang
 
+from merken import met_merktag, winkelmerk
+
 BASE_URL = "https://deltastar.nl"
 LOCALE = "/nl"
 OUTPUT_FILE = "deltastar_add_feed.xml"
@@ -319,10 +321,12 @@ def build_xml(products):
         item = ET.SubElement(root, "product")
         add_child(item, "handle", handle)
         add_child(item, "title", title)
-        add_child(item, "vendor", vendor)
-        add_child(item, "brand", extras.get("brand") or vendor)
+        # 25-11: merknaam zoals de winkel hem schrijft + merktag (merkpagina's lopen deels op tags)
+        merk = winkelmerk(vendor)
+        add_child(item, "vendor", merk)
+        add_child(item, "brand", winkelmerk(extras.get("brand")) or merk)
         add_child(item, "product_type", product_type)
-        add_child(item, "tags", tags_str)
+        add_child(item, "tags", met_merktag(tags_str, merk))
         add_child(item, "published", "true")
         add_child(item, "btw", btw_label)
         add_child(item, "body_html", unescape(body_html))

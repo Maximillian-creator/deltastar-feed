@@ -9,6 +9,23 @@ automatisch via GitHub Actions; je hoeft niets handmatig te doen.
 | **Update-feed** | `scraper.py` | `deltastar_feed.xml` | Prijs + voorraad van **bestaande** producten bijwerken | 2× per dag (06:00 + 18:00 UTC) |
 | **Add-feed** | `add_scraper.py` | `deltastar_add_feed.xml` | **Nieuwe** producten aanmaken met álle info | 1× per week (ma 04:00 UTC) |
 
+## Selectie-feed: nieuwe merken (25-11-2026)
+
+`selectie.py` maakt uit de add-feed `deltastar_add_selectie.xml`: alleen de merken uit
+`selectie.txt` (nu Trace Minerals, Natures Plus, Metabolic Maintenance, MethylPro, AllergoSan),
+**plat** (één `<product>` per variant, groeperen op `handle`), merknaam in winkelspelling
+(`merken.py`: NaturesPlus → Natures Plus, Doctor Wilson's → Dr. Wilson's, Designs for Health →
+Designs For Health, Vuzïmo → Vitalized) en de merknaam ook als tag. Een merk erbij = één regel
+`merk: X` in `selectie.txt`; een product eruit = `-SKU`. Draait mee in de add-workflow (maandag).
+
+```
+Selectie: https://raw.githubusercontent.com/Maximillian-creator/deltastar-feed/main/deltastar_add_selectie.xml
+```
+
+Stock Sync, "Add products": Parent node `products.product[*]`, Variant node leeg, identifier
+`sku`, Variantgroep `handle` + Variant optie 1 `option1`, afbeeldingen `image_links`
+(komma-gescheiden). Alleen nieuwe producten aanmaken; bestaande overslaan.
+
 ## Feed-URL's (Stock Sync)
 
 ```
